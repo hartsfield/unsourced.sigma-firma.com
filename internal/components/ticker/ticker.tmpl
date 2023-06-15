@@ -1,0 +1,9 @@
+{{define "ticker"}}
+<div class="tickerOuter" id="tickerOuter">
+    <div class="ticker" id="ticker">
+        {{.TickerText}}
+    </div>
+</div>
+<script>{{template "ticker_js" .}}</script>
+<style>{{template "ticker_css" .}}</style>
+{{end}}

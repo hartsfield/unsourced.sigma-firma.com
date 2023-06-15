@@ -1,0 +1,22 @@
+{{define "dropdown"}}
+<div class="ddOuter_main pname_{{.PageName}}" id="ddOuter">
+    <!-- <div class="navName" id="navName" onclick="window.location = window.location.origin"> -->
+    <!--     [ (the) U N S O U R C E D ] -->
+    <!-- </div> -->
+    <div class="menuItemOuter" id="menuItemOuter">
+        <div class="navName" id="navName" onclick="window.location = window.location.origin">
+            [ (the) U N S O U R C E D ]
+        </div>
+        <div class="menuItem mostLinkedBut">[ rank ]</div>
+        <div class="menuItem newestButt">[ new ]</div>
+        <div class="menuItem UnpublishedButt">[ feed ]</div>
+        <div class="menuItem newButt">[ submit ]</div>
+        <div class="menuItem aboutButt">[ about ]</div>
+        <!-- <div class="menuItem xButt" onclick="toggleMenu()">[ &nbsp;x&nbsp; ]</div> -->
+    <!-- {{template "nav" . }} -->
+    </div>
+
+</div>
+<style>{{template "dropdown_css" .}}</style>
+<script>{{template "dropdown_js" .}}</script>
+{{end}}

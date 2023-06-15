@@ -1,0 +1,81 @@
+{{define "bigimg_css"}}
+.mainOuter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.mainImg {
+  background-image: url({{.MainImg}});
+  width: 100vw;
+  animation: none;
+  position: fixed;
+}
+
+.mainInfo {}
+.articleTitleMain {
+  font-size: 4.3em;
+  color: white;
+  left: 2vw;
+  position: fixed;
+  top: 10vh;
+  font-family: 'Castoro';
+  font-weight: bold;
+  /* -webkit-text-stroke-width: medium; */
+  text-shadow: 3px -4px 3px black;
+}
+.articleAuthorMain {}
+.datePublishedMain {}
+
+@media screen and (orientation:portrait) {
+  .mainImg {
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
+    width: 100vw;
+    margin: 4em 0 0 0;
+    animation: 20s linear zoominout;
+    animation-iteration-count: infinite;
+
+    --mask: linear-gradient(to bottom, 
+    rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 40%, 
+    rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+
+    -webkit-mask: var(--mask); 
+    mask: var(--mask);
+  }
+}
+@media screen and (orientation:landscape) {
+  .mainImg {
+
+    background-size: contain; 
+    height: 100vh;
+    z-index: 1;
+    animation: 60s linear scrollImg1;
+    animation-iteration-count: infinite;
+    right: 35vw;
+    /* width: 200%; */
+    --mask: linear-gradient(to bottom, 
+    rgba(0,0,0, 1) 10%,   rgba(0,0,0, 1) 40%, 
+    rgba(0,0,0, 0) 99%, rgba(0,0,0, 0) 10%
+    ) 100% 50% / 100% 100% repeat-x;
+    -webkit-mask: var(--mask); 
+    mask: var(--mask);
+  }
+  .main {
+    width: 100vw;
+    position: absolute;
+  }
+}
+@keyframes scrollImg1 {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(35vw); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes zoominout {
+  0% {transform: scale(1, 1);}
+  100% {transform: scale(1.5, 1.5);}
+}
+{{end}}

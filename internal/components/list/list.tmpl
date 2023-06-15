@@ -1,0 +1,28 @@
+{{define "list"}}
+<div class="listOuter">
+  <div class="latest">
+    {{ range $k, $v := .Unpublished }}
+    <div class="articleItem" id="articleItem_{{$k}}" onclick="window.location = window.location.origin + '/article/?ID={{$v.ID}}'">
+      <div class="articleItemImg" id="articleItemImg_{{$k}}" style="background-image: url({{$v.MainImg}});"></div>
+      <div class="articleTitle">{{$v.ArticleTitle}}
+        <div class="articleText">{{$v.ArticleText}}</div>
+        <div class="viewButtOuter">
+          <!-- <div class="viewButt"> -->
+          <!--   Read ‣ -->
+          <!-- </div> -->
+          <div class="datePublished articleHeadItem">
+            {{$v.DatePublished}}
+          </div>
+           | 
+          <div class="articleAuthor">
+            {{$v.ArticleAuthor}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{end}}
+  {{template "footer" . }}
+  </div>
+</div>
+<style>{{template "list_css" .}}</style>
+{{end}}

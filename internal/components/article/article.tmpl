@@ -1,0 +1,14 @@
+{{define "article"}}
+<div class="article" id="article">
+    <div class="articleHead">
+      <div class="datePublished articleHeadItem">{{.Article.DatePublished}}</div>
+      <div class="articleTitle">{{.Article.ArticleTitle}}</div>
+      <div class="articleAuthor articleHeadItem">By: {{.Article.ArticleAuthor}} (<div class="connecting">connecting from: {{.Article.ConnectionIP}}</div>)</div>
+    </div>
+    <div class="articleBody">{{.Article.ArticleText}}</div>
+    <!-- <div class="articleFoot" onclick="window.location = window.location.origin">{{.WebsiteName}}</div> -->
+    {{ template "footer" . }}
+  </div>
+<style>{{template "article_css" .}}</style>
+<script>{{template "article_js" .}}</script>
+{{end}}

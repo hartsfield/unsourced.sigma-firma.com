@@ -1,0 +1,32 @@
+{{define "nav_css"}}
+.nav {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.navX {
+  opacity: 0;
+}
+.menuButt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  height: inherit;
+  padding: 0.5em;
+}
+.innerMenuButt {
+  width: 3em;
+  height: 0.5em;
+  background-color: #fffdf2;
+  border-radius: 0.2em;
+  margin: 0.2em;
+}
+
+@media screen and (orientation:portrait) {}
+@media screen and (orientation:landscape) {
+  .menuButt { display: none; }
+}
+
+{{end}}

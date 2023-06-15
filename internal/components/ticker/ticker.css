@@ -1,0 +1,38 @@
+{{define "ticker_css"}}
+.ticker {
+  font-family: 'Castoro', serif;
+  background-color: #0b8599;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: fit-content;
+  white-space: nowrap;
+  position: sticky;
+  margin-top: 0.35em;
+  margin-left: 100vw;
+  letter-spacing: 2;
+  animation: linear 500s scrollLeft;
+  animation-iteration-count: infinite;
+}
+
+.tickerOuter {
+  box-shadow: 0px 47px 81px 29px rgba(0,0,0,0.5);
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  bottom: 0;
+  position: fixed;
+  height: 3em;
+  width: 100%;
+  z-index: 1000;
+  background-color: #0b8599;
+}
+@keyframes scrollLeft {
+  /* 0% {transform: translateX(0em);} */
+  100% {transform: translateX(-100%); left: 0px;}
+}
+
+.tickerspacer {
+  display: none;
+}
+
+
+{{end}}

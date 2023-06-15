@@ -1,0 +1,2507 @@
+Server started @ http://localhost:9394
+2023/06/10 00:18:12 main.go:91: Server started @ :9394
+2023/06/10 00:22:32 helpers.go:88: unexpected end of JSON input
+2023/06/10 00:22:32 main.go:91: Server started @ :9394
+2023/06/10 00:23:06 helpers.go:88: unexpected end of JSON input
+2023/06/10 00:23:06 main.go:91: Server started @ :9394
+2023/06/10 00:23:09 server.go:3230: http: panic serving [::1]:49484: runtime error: index out of range [0] with length 0
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0001961f8})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa08, 0xc00020c000}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc000117af0?, {0x7dfa08?, 0xc00020c000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa08, 0xc00020c000}, 0xc00019e300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001d2a50?}, {0x7dfa08, 0xc00020c000}, 0xc00019e300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fc000, {0x7dfe00, 0xc0001d2960})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:23:11 server.go:3230: http: panic serving [::1]:49492: runtime error: index out of range [0] with length 0
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000196240})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa08, 0xc00020c0e0}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005faf0?, {0x7dfa08?, 0xc00020c0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa08, 0xc00020c0e0}, 0xc00019e400)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001d2c00?}, {0x7dfa08, 0xc00020c0e0}, 0xc00019e400)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fc0a0, {0x7dfe00, 0xc0001d2960})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:23:16 server.go:3230: http: panic serving [::1]:49496: runtime error: index out of range [0] with length 0
+goroutine 57 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000020240})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa08, 0xc00015c000}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005faf0?, {0x7dfa08?, 0xc00015c000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa08, 0xc00015c000}, 0xc00019e600)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001d2d50?}, {0x7dfa08, 0xc00015c000}, 0xc00019e600)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fc140, {0x7dfe00, 0xc0001d2960})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:23:46 server.go:3230: http: panic serving [::1]:41934: runtime error: index out of range [0] with length 0
+goroutine 8 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0000202a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa08, 0xc00015c0e0}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005faf0?, {0x7dfa08?, 0xc00015c0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa08, 0xc00015c0e0}, 0xc00015a100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000108f90?}, {0x7dfa08, 0xc00015c0e0}, 0xc00015a100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000b40, {0x7dfe00, 0xc0001d2960})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:24:22 handlers.go:57: [::1]:43206
+2023/06/10 00:25:47 handlers.go:57: [::1]:37822
+2023/06/10 00:27:31 main.go:91: Server started @ :9394
+2023/06/10 00:27:35 handlers.go:57: [::1]:60680
+2023/06/10 00:27:35 server.go:3230: http: panic serving [::1]:60680: runtime error: index out of range [14] with length 14
+goroutine 33 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0001361e0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7edf28, 0xc00022a000}, 0xc0000e0200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x1d4
+net/http.HandlerFunc.ServeHTTP(0xc00009faf0?, {0x7edf28?, 0xc00022a000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00013a93e?, {0x7edf28, 0xc00022a000}, 0xc0000e0200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000911a0?}, {0x7edf28, 0xc00022a000}, 0xc0000e0200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002180a0, {0x7ee320, 0xc000091140})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:27:35 handlers.go:57: [::1]:60696
+2023/06/10 00:27:35 server.go:3230: http: panic serving [::1]:60696: runtime error: index out of range [14] with length 14
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000136258})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7edf28, 0xc00022a0e0}, 0xc00011c300)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x1d4
+net/http.HandlerFunc.ServeHTTP(0xc00005eaf0?, {0x7edf28?, 0xc00022a0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00013a96e?, {0x7edf28, 0xc00022a0e0}, 0xc00011c300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00021e030?}, {0x7edf28, 0xc00022a0e0}, 0xc00011c300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000218140, {0x7ee320, 0xc000091140})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:27:35 handlers.go:57: [::1]:60702
+2023/06/10 00:27:35 server.go:3230: http: panic serving [::1]:60702: runtime error: index out of range [14] with length 14
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0001940c0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7edf28, 0xc0001d8000}, 0xc00019c100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x1d4
+net/http.HandlerFunc.ServeHTTP(0xc0001caaf0?, {0x7edf28?, 0xc0001d8000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00019a0fe?, {0x7edf28, 0xc0001d8000}, 0xc00019c100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000188e70?}, {0x7edf28, 0xc0001d8000}, 0xc00019c100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001c4000, {0x7ee320, 0xc000091140})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:27:36 handlers.go:57: [::1]:60716
+2023/06/10 00:27:36 server.go:3230: http: panic serving [::1]:60716: runtime error: index out of range [14] with length 14
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000194138})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7edf28, 0xc0001d80e0}, 0xc00019c200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x1d4
+net/http.HandlerFunc.ServeHTTP(0xc0001caaf0?, {0x7edf28?, 0xc0001d80e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00019a12e?, {0x7edf28, 0xc0001d80e0}, 0xc00019c200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000188ff0?}, {0x7edf28, 0xc0001d80e0}, 0xc00019c200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001c40a0, {0x7ee320, 0xc000091140})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:27:41 handlers.go:57: [::1]:34476
+2023/06/10 00:27:41 server.go:3230: http: panic serving [::1]:34476: runtime error: index out of range [14] with length 14
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0001362d0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7edf28, 0xc00022a1c0}, 0xc00011c400)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x1d4
+net/http.HandlerFunc.ServeHTTP(0xc0001caaf0?, {0x7edf28?, 0xc00022a1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00013a99e?, {0x7edf28, 0xc00022a1c0}, 0xc00011c400)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00021e360?}, {0x7edf28, 0xc00022a1c0}, 0xc00011c400)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002181e0, {0x7ee320, 0xc000091140})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:28:11 handlers.go:57: [::1]:36794
+2023/06/10 00:28:11 server.go:3230: http: panic serving [::1]:36794: runtime error: index out of range [14] with length 14
+goroutine 57 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000136348})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7edf28, 0xc00022a2a0}, 0xc00011c600)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x1d4
+net/http.HandlerFunc.ServeHTTP(0xc0001caaf0?, {0x7edf28?, 0xc00022a2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00013a9ce?, {0x7edf28, 0xc00022a2a0}, 0xc00011c600)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00021e600?}, {0x7edf28, 0xc00022a2a0}, 0xc00011c600)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002183c0, {0x7ee320, 0xc000091140})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 00:28:22 main.go:91: Server started @ :9394
+2023/06/10 00:28:25 handlers.go:57: [::1]:49060
+2023/06/10 00:28:26 handlers.go:57: [::1]:49060
+2023/06/10 00:29:16 main.go:91: Server started @ :9394
+2023/06/10 00:29:18 handlers.go:57: [::1]:43726
+2023/06/10 00:31:54 main.go:91: Server started @ :9394
+2023/06/10 00:32:19 handlers.go:57: [::1]:47360
+2023/06/10 00:38:08 main.go:91: Server started @ :9394
+2023/06/10 00:38:12 main.go:91: Server started @ :9394
+2023/06/10 00:38:40 main.go:91: Server started @ :9394
+2023/06/10 00:38:46 handlers.go:57: [::1]:48860
+2023/06/10 00:40:32 handlers.go:57: 10.0.0.86:49640
+2023/06/10 00:41:29 main.go:91: Server started @ :9394
+2023/06/10 00:42:54 main.go:91: Server started @ :9394
+2023/06/10 00:43:23 main.go:91: Server started @ :9394
+2023/06/10 00:43:44 main.go:91: Server started @ :9394
+2023/06/10 00:44:01 main.go:91: Server started @ :9394
+2023/06/10 00:47:31 main.go:91: Server started @ :9394
+2023/06/10 00:47:33 main.go:91: Server started @ :9394
+2023/06/10 00:47:50 main.go:91: Server started @ :9394
+2023/06/10 00:47:53 main.go:91: Server started @ :9394
+2023/06/10 00:49:02 main.go:91: Server started @ :9394
+2023/06/10 00:50:11 main.go:91: Server started @ :9394
+2023/06/10 00:51:59 main.go:91: Server started @ :9394
+2023/06/10 00:52:16 main.go:91: Server started @ :9394
+2023/06/10 00:55:18 main.go:91: Server started @ :9394
+2023/06/10 00:55:18 main.go:91: Server started @ :9394
+2023/06/10 00:55:36 main.go:91: Server started @ :9394
+2023/06/10 00:56:23 main.go:91: Server started @ :9394
+2023/06/10 00:56:31 main.go:91: Server started @ :9394
+2023/06/10 00:57:05 main.go:91: Server started @ :9394
+2023/06/10 00:59:07 main.go:91: Server started @ :9394
+2023/06/10 00:59:09 main.go:91: Server started @ :9394
+2023/06/10 00:59:10 main.go:91: Server started @ :9394
+2023/06/10 01:00:51 main.go:91: Server started @ :9394
+2023/06/10 01:01:26 main.go:91: Server started @ :9394
+2023/06/10 01:01:55 main.go:91: Server started @ :9394
+2023/06/10 01:02:24 main.go:91: Server started @ :9394
+2023/06/10 01:03:29 main.go:91: Server started @ :9394
+2023/06/10 01:03:35 main.go:91: Server started @ :9394
+2023/06/10 01:05:49 main.go:91: Server started @ :9394
+2023/06/10 01:06:04 helpers.go:88: unexpected end of JSON input
+2023/06/10 01:06:04 main.go:91: Server started @ :9394
+2023/06/10 01:06:09 server.go:3230: http: panic serving [::1]:50934: runtime error: index out of range [0] with length 0
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000192060})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa28, 0xc0001d2000}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7dfa28?, 0xc0001d2000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa28, 0xc0001d2000}, 0xc000190100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000182390?}, {0x7dfa28, 0xc0001d2000}, 0xc000190100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001b0000, {0x7dfe20, 0xc0001822a0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:06:10 server.go:3230: http: panic serving [::1]:50944: runtime error: index out of range [0] with length 0
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc00001a288})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa28, 0xc000160000}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7dfa28?, 0xc000160000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa28, 0xc000160000}, 0xc000190200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000182540?}, {0x7dfa28, 0xc000160000}, 0xc000190200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001b00a0, {0x7dfe20, 0xc0001822a0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:06:10 server.go:3230: http: panic serving [::1]:50952: runtime error: index out of range [0] with length 0
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc00001a300})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa28, 0xc0001600e0}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005caf0?, {0x7dfa28?, 0xc0001600e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa28, 0xc0001600e0}, 0xc000190300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000182600?}, {0x7dfa28, 0xc0001600e0}, 0xc000190300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001b0140, {0x7dfe20, 0xc0001822a0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:06:10 server.go:3230: http: panic serving [::1]:50968: runtime error: index out of range [0] with length 0
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc00001a360})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa28, 0xc0001601c0}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005caf0?, {0x7dfa28?, 0xc0001601c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa28, 0xc0001601c0}, 0xc00015e100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00010d3b0?}, {0x7dfa28, 0xc0001601c0}, 0xc00015e100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000b40, {0x7dfe20, 0xc0001822a0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:06:15 server.go:3230: http: panic serving [::1]:51864: runtime error: index out of range [0] with length 0
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc00001a3c0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.home({0x7dfa28, 0xc0001602a0}, 0x4c1453?)
+	/home/john/Documents/programming/programming/test_server/handlers.go:12 +0xef
+net/http.HandlerFunc.ServeHTTP(0xc00005caf0?, {0x7dfa28?, 0xc0001602a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7dfa28, 0xc0001602a0}, 0xc00015e200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00010d500?}, {0x7dfa28, 0xc0001602a0}, 0xc00015e200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000be0, {0x7dfe20, 0xc0001822a0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:09:59 main.go:91: Server started @ :9394
+2023/06/10 01:10:11 main.go:91: Server started @ :9394
+2023/06/10 01:14:22 main.go:91: Server started @ :9394
+2023/06/10 01:14:34 main.go:91: Server started @ :9394
+2023/06/10 01:15:56 main.go:91: Server started @ :9394
+2023/06/10 01:16:22 main.go:91: Server started @ :9394
+2023/06/10 01:16:49 main.go:91: Server started @ :9394
+2023/06/10 01:16:53 main.go:91: Server started @ :9394
+2023/06/10 01:17:36 main.go:91: Server started @ :9394
+2023/06/10 01:17:46 main.go:91: Server started @ :9394
+2023/06/10 01:18:06 main.go:91: Server started @ :9394
+2023/06/10 01:18:15 main.go:91: Server started @ :9394
+2023/06/10 01:18:32 main.go:91: Server started @ :9394
+2023/06/10 01:19:46 main.go:91: Server started @ :9394
+2023/06/10 01:19:52 main.go:91: Server started @ :9394
+2023/06/10 01:20:08 main.go:91: Server started @ :9394
+2023/06/10 01:21:00 main.go:91: Server started @ :9394
+2023/06/10 01:22:12 main.go:91: Server started @ :9394
+2023/06/10 01:23:34 main.go:91: Server started @ :9394
+2023/06/10 01:23:40 main.go:91: Server started @ :9394
+2023/06/10 01:25:04 main.go:91: Server started @ :9394
+2023/06/10 01:25:37 main.go:91: Server started @ :9394
+2023/06/10 01:25:47 handlers.go:57: 10.0.0.86:41022
+2023/06/10 01:25:47 server.go:3230: http: panic serving 10.0.0.86:41022: runtime error: index out of range [-1]
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc000212030})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7ebf68, 0xc0001301c0}, 0xc000104300)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc000060af0?, {0x7ebf68?, 0xc0001301c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00001e0fe?, {0x7ebf68, 0xc0001301c0}, 0xc000104300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001028a0?}, {0x7ebf68, 0xc0001301c0}, 0xc000104300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000140, {0x7ec360, 0xc0001023c0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:25:48 handlers.go:57: 10.0.0.86:41010
+2023/06/10 01:25:48 server.go:3230: http: panic serving 10.0.0.86:41010: runtime error: index out of range [-1]
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0000d02a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7ebf68, 0xc0001f2000}, 0xc00018e400)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00005aaf0?, {0x7ebf68?, 0xc0001f2000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000c0c3e?, {0x7ebf68, 0xc0001f2000}, 0xc00018e400)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00019fb90?}, {0x7ebf68, 0xc0001f2000}, 0xc00018e400)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00024a000, {0x7ec360, 0xc0001023c0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:25:49 handlers.go:57: 10.0.0.86:41012
+2023/06/10 01:25:49 server.go:3230: http: panic serving 10.0.0.86:41012: runtime error: index out of range [-1]
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0000d02e8})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7ebf68, 0xc0001f20e0}, 0xc000210200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc000060af0?, {0x7ebf68?, 0xc0001f20e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000c0c9e?, {0x7ebf68, 0xc0001f20e0}, 0xc000210200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002023c0?}, {0x7ebf68, 0xc0001f20e0}, 0xc000210200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00024a0a0, {0x7ec360, 0xc0001023c0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:25:49 handlers.go:57: 10.0.0.86:41026
+2023/06/10 01:25:49 server.go:3230: http: panic serving 10.0.0.86:41026: runtime error: index out of range [-1]
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x732540, 0xc0000d0330})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7ebf68, 0xc0001f21c0}, 0xc00018e500)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc000060af0?, {0x7ebf68?, 0xc0001f21c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000c0cfe?, {0x7ebf68, 0xc0001f21c0}, 0xc00018e500)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00019fe30?}, {0x7ebf68, 0xc0001f21c0}, 0xc00018e500)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000b0d20, {0x7ec360, 0xc0001023c0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 01:26:03 handlers.go:57: 10.0.0.86:41584
+2023/06/10 01:27:10 handlers.go:57: 10.0.0.86:59480
+2023/06/10 01:33:43 main.go:91: Server started @ :9394
+2023/06/10 01:34:50 main.go:91: Server started @ :9394
+2023/06/10 01:36:08 main.go:91: Server started @ :9394
+2023/06/10 01:36:40 main.go:91: Server started @ :9394
+2023/06/10 01:40:25 main.go:91: Server started @ :9394
+2023/06/10 01:40:57 main.go:91: Server started @ :9394
+2023/06/10 01:41:26 main.go:91: Server started @ :9394
+2023/06/10 01:43:57 main.go:91: Server started @ :9394
+2023/06/10 01:44:24 main.go:91: Server started @ :9394
+2023/06/10 01:44:32 main.go:91: Server started @ :9394
+2023/06/10 01:44:56 main.go:91: Server started @ :9394
+2023/06/10 01:46:36 main.go:91: Server started @ :9394
+2023/06/10 01:47:03 main.go:91: Server started @ :9394
+2023/06/10 01:47:33 main.go:91: Server started @ :9394
+2023/06/10 01:49:39 main.go:91: Server started @ :9394
+2023/06/10 01:52:09 main.go:91: Server started @ :9394
+2023/06/10 01:53:14 main.go:91: Server started @ :9394
+2023/06/10 01:53:16 main.go:91: Server started @ :9394
+2023/06/10 01:54:53 main.go:91: Server started @ :9394
+2023/06/10 01:55:33 main.go:91: Server started @ :9394
+2023/06/10 01:57:53 main.go:91: Server started @ :9394
+2023/06/10 02:02:24 main.go:91: Server started @ :9394
+2023/06/10 02:03:09 main.go:91: Server started @ :9394
+2023/06/10 02:03:10 main.go:91: Server started @ :9394
+2023/06/10 02:04:47 main.go:91: Server started @ :9394
+2023/06/10 02:04:52 main.go:91: Server started @ :9394
+2023/06/10 02:05:22 main.go:91: Server started @ :9394
+2023/06/10 02:05:23 main.go:91: Server started @ :9394
+2023/06/10 02:06:08 main.go:91: Server started @ :9394
+2023/06/10 02:08:21 main.go:91: Server started @ :9394
+2023/06/10 02:08:50 main.go:91: Server started @ :9394
+2023/06/10 02:10:09 main.go:91: Server started @ :9394
+2023/06/10 02:11:30 main.go:91: Server started @ :9394
+2023/06/10 02:12:43 main.go:91: Server started @ :9394
+2023/06/10 02:13:01 main.go:91: Server started @ :9394
+2023/06/10 02:13:34 main.go:91: Server started @ :9394
+2023/06/10 02:13:42 main.go:91: Server started @ :9394
+2023/06/10 02:15:12 main.go:91: Server started @ :9394
+2023/06/10 02:16:29 main.go:91: Server started @ :9394
+2023/06/10 02:16:40 main.go:91: Server started @ :9394
+2023/06/10 02:16:58 main.go:91: Server started @ :9394
+2023/06/10 02:17:40 main.go:91: Server started @ :9394
+2023/06/10 02:18:04 main.go:91: Server started @ :9394
+2023/06/10 02:18:46 handlers.go:57: [::1]:37512
+2023/06/10 02:20:53 main.go:91: Server started @ :9394
+2023/06/10 02:22:06 main.go:91: Server started @ :9394
+2023/06/10 02:22:32 main.go:91: Server started @ :9394
+2023/06/10 02:23:31 main.go:91: Server started @ :9394
+2023/06/10 02:24:16 main.go:91: Server started @ :9394
+2023/06/10 02:26:11 main.go:91: Server started @ :9394
+2023/06/10 02:27:52 main.go:91: Server started @ :9394
+2023/06/10 02:28:47 main.go:91: Server started @ :9394
+2023/06/10 02:28:49 main.go:91: Server started @ :9394
+2023/06/10 02:29:59 main.go:91: Server started @ :9394
+2023/06/10 02:30:00 main.go:91: Server started @ :9394
+2023/06/10 02:34:59 main.go:91: Server started @ :9394
+2023/06/10 02:35:25 main.go:91: Server started @ :9394
+2023/06/10 02:35:43 main.go:91: Server started @ :9394
+2023/06/10 02:35:51 main.go:91: Server started @ :9394
+2023/06/10 02:36:05 main.go:91: Server started @ :9394
+2023/06/10 02:37:34 main.go:91: Server started @ :9394
+2023/06/10 02:38:13 main.go:91: Server started @ :9394
+2023/06/10 02:38:17 main.go:91: Server started @ :9394
+2023/06/10 02:39:26 main.go:91: Server started @ :9394
+2023/06/10 02:39:38 main.go:91: Server started @ :9394
+2023/06/10 02:40:01 main.go:91: Server started @ :9394
+2023/06/10 02:40:44 main.go:91: Server started @ :9394
+2023/06/10 02:40:50 main.go:91: Server started @ :9394
+2023/06/10 02:42:28 main.go:91: Server started @ :9394
+2023/06/10 02:42:46 main.go:91: Server started @ :9394
+2023/06/10 02:43:26 main.go:91: Server started @ :9394
+2023/06/10 02:45:44 main.go:91: Server started @ :9394
+2023/06/10 02:45:48 main.go:91: Server started @ :9394
+2023/06/10 02:45:55 main.go:91: Server started @ :9394
+2023/06/10 02:45:56 main.go:91: Server started @ :9394
+2023/06/10 02:46:11 main.go:91: Server started @ :9394
+2023/06/10 02:46:22 main.go:91: Server started @ :9394
+2023/06/10 02:46:51 main.go:91: Server started @ :9394
+2023/06/10 02:46:58 main.go:91: Server started @ :9394
+2023/06/10 02:47:31 main.go:91: Server started @ :9394
+2023/06/10 02:47:40 main.go:91: Server started @ :9394
+2023/06/10 02:49:22 main.go:91: Server started @ :9394
+2023/06/10 02:49:37 main.go:91: Server started @ :9394
+2023/06/10 02:51:08 main.go:91: Server started @ :9394
+2023/06/10 02:51:34 main.go:91: Server started @ :9394
+2023/06/10 02:51:56 main.go:91: Server started @ :9394
+2023/06/10 02:52:09 main.go:91: Server started @ :9394
+2023/06/10 02:52:57 main.go:91: Server started @ :9394
+2023/06/10 02:53:35 handlers.go:57: [::1]:49714
+2023/06/10 02:54:26 handlers.go:57: 10.0.0.86:38598
+2023/06/10 02:56:00 handlers.go:57: 10.0.0.86:60186
+2023/06/10 03:07:08 main.go:91: Server started @ :9394
+2023/06/10 03:08:14 main.go:91: Server started @ :9394
+2023/06/10 03:09:11 main.go:91: Server started @ :9394
+2023/06/10 03:09:32 main.go:91: Server started @ :9394
+2023/06/10 03:10:25 main.go:91: Server started @ :9394
+2023/06/10 03:12:48 main.go:91: Server started @ :9394
+2023/06/10 03:13:18 main.go:91: Server started @ :9394
+2023/06/10 03:13:26 main.go:91: Server started @ :9394
+2023/06/10 03:14:05 main.go:91: Server started @ :9394
+2023/06/10 03:16:20 main.go:91: Server started @ :9394
+2023/06/10 03:16:51 main.go:91: Server started @ :9394
+2023/06/10 03:17:03 main.go:91: Server started @ :9394
+2023/06/10 03:17:28 main.go:91: Server started @ :9394
+2023/06/10 03:18:38 main.go:91: Server started @ :9394
+2023/06/10 03:20:17 main.go:91: Server started @ :9394
+2023/06/10 03:21:33 main.go:91: Server started @ :9394
+2023/06/10 03:21:40 main.go:91: Server started @ :9394
+2023/06/10 03:22:09 main.go:91: Server started @ :9394
+2023/06/10 03:22:29 main.go:91: Server started @ :9394
+2023/06/10 03:25:14 main.go:91: Server started @ :9394
+2023/06/10 03:26:30 main.go:91: Server started @ :9394
+2023/06/10 03:28:15 main.go:91: Server started @ :9394
+2023/06/10 03:28:34 handlers.go:57: [::1]:56096
+2023/06/10 03:29:16 main.go:91: Server started @ :9394
+2023/06/10 03:29:18 handlers.go:57: [::1]:39150
+2023/06/10 03:30:17 main.go:91: Server started @ :9394
+2023/06/10 03:30:23 handlers.go:57: [::1]:35212
+2023/06/10 03:33:42 main.go:91: Server started @ :9394
+2023/06/10 03:33:44 main.go:91: Server started @ :9394
+2023/06/10 03:34:02 main.go:91: Server started @ :9394
+2023/06/10 03:35:37 main.go:91: Server started @ :9394
+2023/06/10 03:36:16 main.go:91: Server started @ :9394
+2023/06/10 03:37:36 main.go:91: Server started @ :9394
+2023/06/10 03:37:41 main.go:91: Server started @ :9394
+2023/06/10 03:37:47 handlers.go:57: [::1]:51052
+2023/06/10 03:38:18 main.go:91: Server started @ :9394
+2023/06/10 03:38:21 handlers.go:57: [::1]:44636
+2023/06/10 03:38:21 helpers.go:46: template: dropdown.tmpl:10:19: executing "dropdown" at <{{template "dropdown_js" .}}>: template "dropdown_js" not defined
+2023/06/10 03:38:57 main.go:91: Server started @ :9394
+2023/06/10 03:39:00 handlers.go:57: [::1]:58260
+2023/06/10 03:39:00 helpers.go:46: template: dropdown.tmpl:10:19: executing "dropdown" at <{{template "dropdown_js" .}}>: template "dropdown_js" not defined
+2023/06/10 03:39:25 main.go:91: Server started @ :9394
+2023/06/10 03:39:29 handlers.go:57: [::1]:50450
+2023/06/10 03:39:56 main.go:91: Server started @ :9394
+2023/06/10 03:40:00 handlers.go:57: [::1]:53598
+2023/06/10 03:40:56 main.go:91: Server started @ :9394
+2023/06/10 03:41:02 handlers.go:57: [::1]:60266
+2023/06/10 03:43:45 main.go:91: Server started @ :9394
+2023/06/10 03:43:46 handlers.go:57: [::1]:55102
+2023/06/10 03:43:57 main.go:91: Server started @ :9394
+2023/06/10 03:43:59 handlers.go:57: [::1]:55364
+2023/06/10 03:46:10 main.go:91: Server started @ :9394
+2023/06/10 03:46:13 handlers.go:57: [::1]:56660
+2023/06/10 03:50:20 main.go:91: Server started @ :9394
+2023/06/10 03:50:51 main.go:91: Server started @ :9394
+2023/06/10 03:50:53 handlers.go:57: [::1]:34930
+2023/06/10 03:53:24 main.go:91: Server started @ :9394
+2023/06/10 03:53:27 handlers.go:57: [::1]:44812
+2023/06/10 03:53:43 main.go:91: Server started @ :9394
+2023/06/10 03:54:35 handlers.go:57: [::1]:52192
+2023/06/10 03:56:45 main.go:91: Server started @ :9394
+2023/06/10 03:57:23 main.go:91: Server started @ :9394
+2023/06/10 03:58:40 main.go:91: Server started @ :9394
+2023/06/10 03:58:48 main.go:91: Server started @ :9394
+2023/06/10 03:58:56 main.go:91: Server started @ :9394
+2023/06/10 03:59:02 main.go:91: Server started @ :9394
+2023/06/10 03:59:06 main.go:91: Server started @ :9394
+2023/06/10 04:00:32 main.go:91: Server started @ :9394
+2023/06/10 04:00:37 main.go:91: Server started @ :9394
+2023/06/10 04:01:12 main.go:91: Server started @ :9394
+2023/06/10 04:01:16 handlers.go:57: [::1]:50748
+2023/06/10 04:01:35 main.go:91: Server started @ :9394
+2023/06/10 04:01:38 handlers.go:57: [::1]:36272
+2023/06/10 04:02:02 main.go:91: Server started @ :9394
+2023/06/10 04:02:05 handlers.go:57: [::1]:49876
+2023/06/10 04:02:18 main.go:91: Server started @ :9394
+2023/06/10 04:02:20 handlers.go:57: [::1]:38298
+2023/06/10 04:03:03 main.go:91: Server started @ :9394
+2023/06/10 04:03:10 handlers.go:57: [::1]:50382
+2023/06/10 04:03:40 main.go:91: Server started @ :9394
+2023/06/10 04:03:42 handlers.go:57: [::1]:40092
+2023/06/10 04:03:50 handlers.go:57: [::1]:40104
+2023/06/10 04:05:14 main.go:91: Server started @ :9394
+2023/06/10 04:05:17 handlers.go:57: [::1]:52676
+2023/06/10 04:07:09 main.go:91: Server started @ :9394
+2023/06/10 04:07:19 handlers.go:57: [::1]:40836
+2023/06/10 04:08:32 main.go:91: Server started @ :9394
+2023/06/10 04:08:39 handlers.go:57: [::1]:42062
+2023/06/10 04:10:11 main.go:91: Server started @ :9394
+2023/06/10 04:10:21 handlers.go:57: [::1]:60336
+2023/06/10 04:13:04 main.go:91: Server started @ :9394
+2023/06/10 04:13:13 main.go:91: Server started @ :9394
+2023/06/10 04:13:19 main.go:91: Server started @ :9394
+2023/06/10 04:13:25 handlers.go:57: [::1]:59150
+2023/06/10 04:13:51 main.go:91: Server started @ :9394
+2023/06/10 04:13:54 handlers.go:57: [::1]:34232
+2023/06/10 04:14:04 main.go:91: Server started @ :9394
+2023/06/10 04:14:05 handlers.go:57: [::1]:50906
+2023/06/10 04:15:47 main.go:91: Server started @ :9394
+2023/06/10 04:15:49 handlers.go:57: [::1]:42454
+2023/06/10 04:16:10 main.go:91: Server started @ :9394
+2023/06/10 04:16:25 main.go:91: Server started @ :9394
+2023/06/10 04:16:33 main.go:91: Server started @ :9394
+2023/06/10 04:16:37 handlers.go:57: [::1]:47400
+2023/06/10 04:17:18 main.go:91: Server started @ :9394
+2023/06/10 04:18:54 main.go:91: Server started @ :9394
+2023/06/10 04:19:11 main.go:91: Server started @ :9394
+2023/06/10 04:19:20 main.go:91: Server started @ :9394
+2023/06/10 04:19:44 main.go:91: Server started @ :9394
+2023/06/10 04:19:57 main.go:91: Server started @ :9394
+2023/06/10 04:20:14 main.go:91: Server started @ :9394
+2023/06/10 04:20:31 main.go:91: Server started @ :9394
+2023/06/10 04:21:29 main.go:91: Server started @ :9394
+2023/06/10 04:21:51 main.go:91: Server started @ :9394
+2023/06/10 04:22:59 main.go:91: Server started @ :9394
+2023/06/10 04:23:07 main.go:91: Server started @ :9394
+2023/06/10 04:23:20 main.go:91: Server started @ :9394
+2023/06/10 04:23:39 main.go:91: Server started @ :9394
+2023/06/10 04:24:04 main.go:91: Server started @ :9394
+2023/06/10 04:24:31 main.go:91: Server started @ :9394
+2023/06/10 04:24:55 main.go:91: Server started @ :9394
+2023/06/10 04:25:13 main.go:91: Server started @ :9394
+2023/06/10 04:25:23 main.go:91: Server started @ :9394
+2023/06/10 04:25:45 main.go:91: Server started @ :9394
+2023/06/10 04:26:22 main.go:91: Server started @ :9394
+2023/06/10 04:26:53 main.go:91: Server started @ :9394
+2023/06/10 04:26:56 main.go:91: Server started @ :9394
+2023/06/10 04:28:30 main.go:91: Server started @ :9394
+2023/06/10 04:28:35 main.go:91: Server started @ :9394
+2023/06/10 04:29:04 main.go:91: Server started @ :9394
+2023/06/10 04:29:19 main.go:91: Server started @ :9394
+2023/06/10 04:29:30 main.go:91: Server started @ :9394
+2023/06/10 04:30:52 main.go:91: Server started @ :9394
+2023/06/10 04:32:02 handlers.go:57: 10.0.0.86:48476
+2023/06/10 05:59:50 handlers.go:57: [::1]:47086
+2023/06/10 09:25:49 handlers.go:57: [::1]:52434
+2023/06/10 11:24:49 main.go:91: Server started @ :9394
+2023/06/10 11:26:27 handlers.go:57: [::1]:44952
+2023/06/10 11:29:09 main.go:91: Server started @ :9394
+2023/06/10 11:29:10 main.go:91: Server started @ :9394
+2023/06/10 11:29:37 main.go:91: Server started @ :9394
+2023/06/10 11:29:40 handlers.go:57: [::1]:48104
+2023/06/10 11:30:17 main.go:91: Server started @ :9394
+2023/06/10 11:30:27 main.go:91: Server started @ :9394
+2023/06/10 11:30:40 main.go:91: Server started @ :9394
+2023/06/10 11:30:43 handlers.go:57: [::1]:47786
+2023/06/10 11:30:48 handlers.go:57: [::1]:47786
+2023/06/10 11:31:02 main.go:91: Server started @ :9394
+2023/06/10 11:31:05 handlers.go:57: [::1]:38962
+2023/06/10 11:31:34 main.go:91: Server started @ :9394
+2023/06/10 11:31:37 handlers.go:57: [::1]:40020
+2023/06/10 11:32:05 main.go:91: Server started @ :9394
+2023/06/10 11:32:11 main.go:91: Server started @ :9394
+2023/06/10 11:32:14 handlers.go:57: [::1]:35244
+2023/06/10 11:33:04 main.go:91: Server started @ :9394
+2023/06/10 11:33:13 handlers.go:57: [::1]:53692
+2023/06/10 11:33:19 handlers.go:57: [::1]:53708
+2023/06/10 11:33:21 handlers.go:57: [::1]:53708
+2023/06/10 11:33:41 main.go:91: Server started @ :9394
+2023/06/10 11:33:44 main.go:91: Server started @ :9394
+2023/06/10 11:33:45 main.go:91: Server started @ :9394
+2023/06/10 11:34:17 main.go:91: Server started @ :9394
+2023/06/10 11:34:22 handlers.go:57: [::1]:59426
+2023/06/10 11:34:49 main.go:91: Server started @ :9394
+2023/06/10 11:34:58 handlers.go:57: [::1]:47346
+2023/06/10 11:35:57 main.go:91: Server started @ :9394
+2023/06/10 11:36:01 handlers.go:57: [::1]:48490
+2023/06/10 11:36:26 main.go:91: Server started @ :9394
+2023/06/10 11:36:28 main.go:91: Server started @ :9394
+2023/06/10 11:36:32 handlers.go:57: [::1]:53846
+2023/06/10 11:36:51 main.go:91: Server started @ :9394
+2023/06/10 11:36:54 handlers.go:57: [::1]:45664
+2023/06/10 11:38:42 main.go:91: Server started @ :9394
+2023/06/10 11:38:44 handlers.go:57: [::1]:34916
+2023/06/10 11:39:02 main.go:91: Server started @ :9394
+2023/06/10 11:39:04 handlers.go:57: [::1]:47112
+2023/06/10 11:39:12 main.go:91: Server started @ :9394
+2023/06/10 11:39:14 handlers.go:57: [::1]:59550
+2023/06/10 11:39:31 main.go:91: Server started @ :9394
+2023/06/10 11:39:39 handlers.go:57: [::1]:33242
+2023/06/10 11:39:55 main.go:91: Server started @ :9394
+2023/06/10 11:40:08 main.go:91: Server started @ :9394
+2023/06/10 11:40:11 handlers.go:57: [::1]:50006
+2023/06/10 11:40:20 main.go:91: Server started @ :9394
+2023/06/10 11:40:23 handlers.go:57: [::1]:44212
+2023/06/10 11:40:56 main.go:91: Server started @ :9394
+2023/06/10 11:41:02 handlers.go:57: [::1]:42428
+2023/06/10 11:41:23 main.go:91: Server started @ :9394
+2023/06/10 11:41:25 handlers.go:57: [::1]:44812
+2023/06/10 11:42:24 main.go:91: Server started @ :9394
+2023/06/10 11:42:27 main.go:91: Server started @ :9394
+2023/06/10 11:42:56 main.go:91: Server started @ :9394
+2023/06/10 11:43:12 main.go:91: Server started @ :9394
+2023/06/10 11:43:14 handlers.go:57: [::1]:53788
+2023/06/10 11:43:26 handlers.go:57: [::1]:47838
+2023/06/10 11:44:13 main.go:91: Server started @ :9394
+2023/06/10 11:44:16 handlers.go:57: [::1]:35152
+2023/06/10 11:45:08 main.go:91: Server started @ :9394
+2023/06/10 11:45:10 main.go:91: Server started @ :9394
+2023/06/10 11:45:12 handlers.go:57: [::1]:43734
+2023/06/10 11:45:44 main.go:91: Server started @ :9394
+2023/06/10 11:45:47 handlers.go:57: [::1]:40684
+2023/06/10 11:46:04 main.go:91: Server started @ :9394
+2023/06/10 11:46:06 handlers.go:57: [::1]:50944
+2023/06/10 11:46:30 main.go:91: Server started @ :9394
+2023/06/10 11:46:36 handlers.go:57: [::1]:60776
+2023/06/10 11:46:49 handlers.go:57: [::1]:58006
+2023/06/10 11:47:04 main.go:91: Server started @ :9394
+2023/06/10 11:48:17 main.go:91: Server started @ :9394
+2023/06/10 11:48:19 main.go:91: Server started @ :9394
+2023/06/10 11:49:05 main.go:91: Server started @ :9394
+2023/06/10 11:49:32 main.go:91: Server started @ :9394
+2023/06/10 11:49:50 main.go:91: Server started @ :9394
+2023/06/10 11:50:27 handlers.go:57: [::1]:39716
+2023/06/10 12:06:12 main.go:91: Server started @ :9394
+2023/06/10 12:06:35 main.go:91: Server started @ :9394
+2023/06/10 12:07:23 main.go:91: Server started @ :9394
+2023/06/10 12:24:45 main.go:91: Server started @ :9394
+2023/06/10 12:25:38 main.go:91: Server started @ :9394
+2023/06/10 12:25:42 main.go:91: Server started @ :9394
+2023/06/10 12:25:43 main.go:91: Server started @ :9394
+2023/06/10 12:28:05 main.go:91: Server started @ :9394
+2023/06/10 12:28:23 main.go:91: Server started @ :9394
+2023/06/10 12:33:38 main.go:91: Server started @ :9394
+2023/06/10 12:42:25 main.go:91: Server started @ :9394
+2023/06/10 12:43:28 main.go:91: Server started @ :9394
+2023/06/10 14:08:26 handlers.go:57: [::1]:57756
+2023/06/10 14:08:57 handlers.go:57: [::1]:52974
+2023/06/10 14:17:09 main.go:91: Server started @ :9394
+2023/06/10 14:17:13 main.go:91: Server started @ :9394
+2023/06/10 14:17:23 main.go:92: Server started @ :9394
+2023/06/10 14:18:45 main.go:92: Server started @ :9394
+2023/06/10 14:19:00 main.go:92: Server started @ :9394
+2023/06/10 14:19:06 handlers.go:57: [::1]:56628
+2023/06/10 14:20:22 main.go:92: Server started @ :9394
+2023/06/10 14:22:52 main.go:92: Server started @ :9394
+2023/06/10 14:23:06 main.go:92: Server started @ :9394
+2023/06/10 14:23:26 main.go:92: Server started @ :9394
+2023/06/10 14:23:45 main.go:92: Server started @ :9394
+2023/06/10 14:26:26 main.go:92: Server started @ :9394
+2023/06/10 14:27:02 main.go:92: Server started @ :9394
+2023/06/10 14:28:24 main.go:92: Server started @ :9394
+2023/06/10 14:29:43 handlers.go:57: [::1]:60730
+2023/06/10 14:37:40 main.go:92: Server started @ :9394
+2023/06/10 14:37:58 main.go:92: Server started @ :9394
+2023/06/10 14:40:27 main.go:92: Server started @ :9394
+2023/06/10 14:41:40 main.go:92: Server started @ :9394
+2023/06/10 14:42:36 main.go:92: Server started @ :9394
+2023/06/10 14:43:23 main.go:92: Server started @ :9394
+2023/06/10 14:43:37 main.go:92: Server started @ :9394
+2023/06/10 14:52:10 main.go:92: Server started @ :9394
+2023/06/10 14:53:18 main.go:92: Server started @ :9394
+2023/06/10 14:53:40 main.go:92: Server started @ :9394
+2023/06/10 14:54:01 main.go:92: Server started @ :9394
+2023/06/10 14:55:09 main.go:92: Server started @ :9394
+2023/06/10 14:55:51 main.go:92: Server started @ :9394
+2023/06/10 14:57:01 main.go:92: Server started @ :9394
+2023/06/10 14:58:00 main.go:92: Server started @ :9394
+2023/06/10 14:58:31 main.go:92: Server started @ :9394
+2023/06/10 15:00:37 main.go:92: Server started @ :9394
+2023/06/10 15:01:31 main.go:92: Server started @ :9394
+2023/06/10 15:01:47 main.go:92: Server started @ :9394
+2023/06/10 15:02:05 main.go:92: Server started @ :9394
+2023/06/10 15:02:17 main.go:92: Server started @ :9394
+2023/06/10 15:02:29 main.go:92: Server started @ :9394
+2023/06/10 15:02:54 main.go:92: Server started @ :9394
+2023/06/10 15:06:05 main.go:92: Server started @ :9394
+2023/06/10 15:06:34 main.go:92: Server started @ :9394
+2023/06/10 15:08:07 main.go:92: Server started @ :9394
+2023/06/10 15:08:34 main.go:92: Server started @ :9394
+2023/06/10 15:11:50 main.go:92: Server started @ :9394
+2023/06/10 15:12:02 main.go:92: Server started @ :9394
+2023/06/10 16:28:08 main.go:92: Server started @ :9394
+2023/06/10 16:28:45 main.go:92: Server started @ :9394
+2023/06/10 16:28:55 main.go:92: Server started @ :9394
+2023/06/10 16:29:54 main.go:92: Server started @ :9394
+2023/06/10 16:30:06 main.go:92: Server started @ :9394
+2023/06/10 16:31:38 main.go:92: Server started @ :9394
+2023/06/10 16:38:31 main.go:92: Server started @ :9394
+2023/06/10 16:38:58 main.go:92: Server started @ :9394
+2023/06/10 16:39:22 main.go:92: Server started @ :9394
+2023/06/10 16:41:12 main.go:92: Server started @ :9394
+2023/06/10 16:41:23 main.go:92: Server started @ :9394
+2023/06/10 16:42:09 main.go:92: Server started @ :9394
+2023/06/10 16:42:15 main.go:92: Server started @ :9394
+2023/06/10 16:45:34 main.go:92: Server started @ :9394
+2023/06/10 16:45:58 main.go:92: Server started @ :9394
+2023/06/10 16:47:30 main.go:92: Server started @ :9394
+2023/06/10 16:50:21 main.go:92: Server started @ :9394
+2023/06/10 16:51:18 main.go:92: Server started @ :9394
+2023/06/10 16:55:41 main.go:92: Server started @ :9394
+2023/06/10 16:56:01 main.go:92: Server started @ :9394
+2023/06/10 16:57:26 main.go:92: Server started @ :9394
+2023/06/10 16:58:03 main.go:92: Server started @ :9394
+2023/06/10 16:58:06 main.go:92: Server started @ :9394
+2023/06/10 16:58:29 main.go:92: Server started @ :9394
+2023/06/10 17:00:28 main.go:92: Server started @ :9394
+2023/06/10 17:00:29 main.go:92: Server started @ :9394
+2023/06/10 17:29:49 handlers.go:57: [::1]:49284
+2023/06/10 17:31:03 main.go:92: Server started @ :9394
+2023/06/10 17:31:05 handlers.go:57: [::1]:52374
+2023/06/10 17:34:53 main.go:92: Server started @ :9394
+2023/06/10 17:34:56 handlers.go:57: [::1]:39374
+2023/06/10 17:35:05 handlers.go:57: [::1]:52182
+2023/06/10 17:36:37 main.go:92: Server started @ :9394
+2023/06/10 17:39:14 main.go:92: Server started @ :9394
+2023/06/10 17:39:51 main.go:92: Server started @ :9394
+2023/06/10 17:40:02 main.go:92: Server started @ :9394
+2023/06/10 17:40:43 main.go:92: Server started @ :9394
+2023/06/10 17:41:07 main.go:92: Server started @ :9394
+2023/06/10 17:41:37 handlers.go:57: [::1]:50420
+2023/06/10 17:41:38 handlers.go:57: [::1]:50420
+2023/06/10 17:41:40 handlers.go:57: [::1]:50420
+2023/06/10 17:42:06 main.go:92: Server started @ :9394
+2023/06/10 17:42:19 main.go:92: Server started @ :9394
+2023/06/10 17:42:22 handlers.go:57: [::1]:45852
+2023/06/10 18:03:50 handlers.go:57: 10.0.0.86:38702
+2023/06/10 18:14:32 main.go:92: Server started @ :9394
+2023/06/10 18:14:34 handlers.go:57: [::1]:40634
+2023/06/10 18:16:07 handlers.go:57: [::1]:33438
+2023/06/10 18:25:55 handlers.go:57: [::1]:56476
+2023/06/10 18:27:41 main.go:92: Server started @ :9394
+2023/06/10 18:31:51 main.go:92: Server started @ :9394
+2023/06/10 18:38:16 main.go:92: Server started @ :9394
+2023/06/10 18:40:52 main.go:92: Server started @ :9394
+2023/06/10 18:41:25 main.go:92: Server started @ :9394
+2023/06/10 18:41:59 main.go:92: Server started @ :9394
+2023/06/10 18:42:21 main.go:92: Server started @ :9394
+2023/06/10 18:42:36 main.go:92: Server started @ :9394
+2023/06/10 18:42:42 main.go:92: Server started @ :9394
+2023/06/10 18:45:03 main.go:92: Server started @ :9394
+2023/06/10 18:46:58 main.go:92: Server started @ :9394
+2023/06/10 18:47:30 main.go:92: Server started @ :9394
+2023/06/10 18:48:30 handlers.go:57: [::1]:45506
+2023/06/10 18:48:49 main.go:92: Server started @ :9394
+2023/06/10 18:48:51 handlers.go:57: [::1]:49948
+2023/06/10 18:52:05 main.go:92: Server started @ :9394
+2023/06/10 18:52:08 handlers.go:57: [::1]:38364
+2023/06/10 18:53:13 handlers.go:57: [::1]:60296
+2023/06/10 18:53:52 main.go:92: Server started @ :9394
+2023/06/10 18:53:55 handlers.go:57: [::1]:44662
+2023/06/10 18:55:45 main.go:92: Server started @ :9394
+2023/06/10 18:55:49 handlers.go:57: [::1]:53634
+2023/06/10 18:57:23 main.go:92: Server started @ :9394
+2023/06/10 18:58:17 main.go:92: Server started @ :9394
+2023/06/10 18:58:19 main.go:92: Server started @ :9394
+2023/06/10 18:58:22 handlers.go:57: [::1]:45234
+2023/06/10 18:59:10 main.go:92: Server started @ :9394
+2023/06/10 18:59:12 handlers.go:57: [::1]:38498
+2023/06/10 19:00:21 main.go:92: Server started @ :9394
+2023/06/10 19:02:15 main.go:92: Server started @ :9394
+2023/06/10 19:02:47 handlers.go:57: 10.0.0.86:39968
+2023/06/10 19:06:43 main.go:92: Server started @ :9394
+2023/06/10 19:07:09 handlers.go:57: [::1]:57194
+2023/06/10 19:07:41 main.go:92: Server started @ :9394
+2023/06/10 19:08:45 main.go:92: Server started @ :9394
+2023/06/10 19:08:58 main.go:92: Server started @ :9394
+2023/06/10 19:09:01 handlers.go:57: [::1]:43742
+2023/06/10 19:10:51 main.go:92: Server started @ :9394
+2023/06/10 19:11:45 main.go:92: Server started @ :9394
+2023/06/10 19:12:48 main.go:92: Server started @ :9394
+2023/06/10 19:13:02 main.go:92: Server started @ :9394
+2023/06/10 19:13:27 main.go:92: Server started @ :9394
+2023/06/10 19:13:34 main.go:92: Server started @ :9394
+2023/06/10 19:14:29 main.go:92: Server started @ :9394
+2023/06/10 19:14:54 main.go:92: Server started @ :9394
+2023/06/10 19:15:02 main.go:92: Server started @ :9394
+2023/06/10 20:38:35 handlers.go:57: [::1]:38086
+2023/06/10 21:16:42 handlers.go:57: 10.0.0.86:59858
+2023/06/10 21:19:17 main.go:92: Server started @ :9394
+2023/06/10 21:19:30 handlers.go:57: 10.0.0.86:36862
+2023/06/10 21:19:45 handlers.go:57: 10.0.0.86:54408
+2023/06/10 21:20:03 main.go:92: Server started @ :9394
+2023/06/10 21:20:07 handlers.go:57: 10.0.0.86:40800
+2023/06/10 21:21:31 main.go:92: Server started @ :9394
+2023/06/10 21:21:35 main.go:92: Server started @ :9394
+2023/06/10 21:21:44 main.go:92: Server started @ :9394
+2023/06/10 21:21:46 main.go:92: Server started @ :9394
+2023/06/10 21:21:54 main.go:92: Server started @ :9394
+2023/06/10 21:22:13 handlers.go:57: 10.0.0.86:48052
+2023/06/10 21:23:03 main.go:92: Server started @ :9394
+2023/06/10 21:23:34 main.go:92: Server started @ :9394
+2023/06/10 21:23:46 handlers.go:57: [::1]:59522
+2023/06/10 21:25:11 handlers.go:57: 10.0.0.86:38972
+2023/06/10 21:25:31 main.go:92: Server started @ :9394
+2023/06/10 21:33:50 main.go:92: Server started @ :9394
+2023/06/10 21:33:58 main.go:92: Server started @ :9394
+2023/06/10 21:34:00 handlers.go:57: [::1]:41786
+2023/06/10 21:36:51 main.go:92: Server started @ :9394
+2023/06/10 21:36:53 handlers.go:57: [::1]:37044
+2023/06/10 21:38:49 handlers.go:57: [::1]:38002
+2023/06/10 21:39:46 main.go:92: Server started @ :9394
+2023/06/10 21:39:51 handlers.go:57: [::1]:58350
+2023/06/10 21:41:08 handlers.go:57: 10.0.0.86:39734
+2023/06/10 21:42:33 main.go:92: Server started @ :9394
+2023/06/10 21:42:42 handlers.go:57: 10.0.0.86:57016
+2023/06/10 21:42:52 handlers.go:57: 10.0.0.86:59862
+2023/06/10 21:44:08 main.go:92: Server started @ :9394
+2023/06/10 21:44:13 main.go:92: Server started @ :9394
+2023/06/10 21:44:57 main.go:92: Server started @ :9394
+2023/06/10 21:45:00 main.go:92: Server started @ :9394
+2023/06/10 21:45:13 main.go:92: Server started @ :9394
+2023/06/10 21:45:22 handlers.go:57: 10.0.0.86:50258
+2023/06/10 21:45:43 handlers.go:57: 10.0.0.86:48150
+2023/06/10 21:46:41 main.go:92: Server started @ :9394
+2023/06/10 21:46:52 main.go:92: Server started @ :9394
+2023/06/10 21:46:57 handlers.go:57: [::1]:46836
+2023/06/10 21:47:38 main.go:92: Server started @ :9394
+2023/06/10 21:47:42 handlers.go:57: [::1]:36402
+2023/06/10 21:48:47 main.go:92: Server started @ :9394
+2023/06/10 21:48:51 handlers.go:57: [::1]:47856
+2023/06/10 21:50:02 main.go:92: Server started @ :9394
+2023/06/10 21:50:04 handlers.go:57: [::1]:55180
+2023/06/10 21:50:57 main.go:92: Server started @ :9394
+2023/06/10 21:55:22 handlers.go:57: [::1]:40556
+2023/06/10 21:55:52 handlers.go:57: [::1]:45466
+2023/06/10 21:55:53 handlers.go:57: [::1]:45466
+2023/06/10 21:56:12 handlers.go:57: [::1]:42318
+2023/06/10 21:56:24 main.go:92: Server started @ :9394
+2023/06/10 21:56:26 handlers.go:57: [::1]:60038
+2023/06/10 21:56:38 handlers.go:57: 10.0.0.86:50610
+2023/06/10 21:57:55 main.go:92: Server started @ :9394
+2023/06/10 21:59:43 main.go:92: Server started @ :9394
+2023/06/10 22:00:13 main.go:92: Server started @ :9394
+2023/06/10 22:00:17 main.go:92: Server started @ :9394
+2023/06/10 22:00:25 main.go:92: Server started @ :9394
+2023/06/10 22:00:44 main.go:92: Server started @ :9394
+2023/06/10 22:01:21 main.go:92: Server started @ :9394
+2023/06/10 22:01:29 main.go:92: Server started @ :9394
+2023/06/10 22:03:22 main.go:92: Server started @ :9394
+2023/06/10 22:04:01 main.go:92: Server started @ :9394
+2023/06/10 22:04:16 main.go:92: Server started @ :9394
+2023/06/10 22:04:34 main.go:92: Server started @ :9394
+2023/06/10 22:05:00 main.go:92: Server started @ :9394
+2023/06/10 22:05:32 main.go:92: Server started @ :9394
+2023/06/10 22:06:00 main.go:92: Server started @ :9394
+2023/06/10 22:06:42 main.go:92: Server started @ :9394
+2023/06/10 22:06:48 main.go:92: Server started @ :9394
+2023/06/10 22:08:13 main.go:92: Server started @ :9394
+2023/06/10 22:12:07 main.go:92: Server started @ :9394
+2023/06/10 22:12:19 main.go:92: Server started @ :9394
+2023/06/10 22:15:38 main.go:92: Server started @ :9394
+2023/06/10 22:16:19 main.go:92: Server started @ :9394
+2023/06/10 22:16:31 main.go:92: Server started @ :9394
+2023/06/10 22:16:36 main.go:92: Server started @ :9394
+2023/06/10 22:17:29 main.go:92: Server started @ :9394
+2023/06/10 22:18:08 main.go:92: Server started @ :9394
+2023/06/10 22:18:56 main.go:92: Server started @ :9394
+2023/06/10 22:19:00 main.go:92: Server started @ :9394
+2023/06/10 22:21:16 main.go:92: Server started @ :9394
+2023/06/10 22:23:03 main.go:92: Server started @ :9394
+2023/06/10 22:23:26 main.go:92: Server started @ :9394
+2023/06/10 22:25:41 main.go:92: Server started @ :9394
+2023/06/10 22:25:50 main.go:92: Server started @ :9394
+2023/06/10 22:26:05 main.go:92: Server started @ :9394
+2023/06/10 22:26:23 main.go:92: Server started @ :9394
+2023/06/10 22:27:17 main.go:92: Server started @ :9394
+2023/06/10 22:27:27 main.go:92: Server started @ :9394
+2023/06/10 22:27:34 main.go:92: Server started @ :9394
+2023/06/10 22:34:26 handlers.go:57: 10.0.0.86:51412
+2023/06/10 22:35:17 handlers.go:57: 10.0.0.86:44654
+2023/06/10 22:45:29 main.go:92: Server started @ :9394
+2023/06/10 22:45:37 main.go:92: Server started @ :9394
+2023/06/10 22:45:45 main.go:92: Server started @ :9394
+2023/06/10 22:46:02 main.go:92: Server started @ :9394
+2023/06/10 22:46:10 main.go:92: Server started @ :9394
+2023/06/10 22:46:55 main.go:92: Server started @ :9394
+2023/06/10 22:47:30 main.go:92: Server started @ :9394
+2023/06/10 22:48:08 main.go:92: Server started @ :9394
+2023/06/10 22:48:44 main.go:92: Server started @ :9394
+2023/06/10 22:48:51 main.go:92: Server started @ :9394
+2023/06/10 22:48:55 main.go:92: Server started @ :9394
+2023/06/10 22:55:37 main.go:92: Server started @ :9394
+2023/06/10 22:55:47 handlers.go:57: 10.0.0.86:36370
+2023/06/10 22:56:08 handlers.go:57: 10.0.0.86:55748
+2023/06/10 22:57:04 main.go:92: Server started @ :9394
+2023/06/10 23:01:48 main.go:92: Server started @ :9394
+2023/06/10 23:01:57 main.go:92: Server started @ :9394
+2023/06/10 23:02:54 main.go:92: Server started @ :9394
+2023/06/10 23:03:18 main.go:92: Server started @ :9394
+2023/06/10 23:03:30 main.go:92: Server started @ :9394
+2023/06/10 23:04:00 main.go:92: Server started @ :9394
+2023/06/10 23:04:41 main.go:92: Server started @ :9394
+2023/06/10 23:05:15 main.go:92: Server started @ :9394
+2023/06/10 23:05:31 main.go:92: Server started @ :9394
+2023/06/10 23:12:09 main.go:92: Server started @ :9394
+2023/06/10 23:12:24 main.go:92: Server started @ :9394
+2023/06/10 23:13:19 main.go:92: Server started @ :9394
+2023/06/10 23:13:44 main.go:92: Server started @ :9394
+2023/06/10 23:14:15 main.go:92: Server started @ :9394
+2023/06/10 23:14:38 main.go:92: Server started @ :9394
+2023/06/10 23:16:07 main.go:92: Server started @ :9394
+2023/06/10 23:17:46 main.go:92: Server started @ :9394
+2023/06/10 23:17:51 main.go:92: Server started @ :9394
+2023/06/10 23:18:16 main.go:92: Server started @ :9394
+2023/06/10 23:20:37 main.go:92: Server started @ :9394
+2023/06/10 23:21:02 main.go:92: Server started @ :9394
+2023/06/10 23:21:11 main.go:92: Server started @ :9394
+2023/06/10 23:21:46 main.go:92: Server started @ :9394
+2023/06/10 23:21:55 main.go:92: Server started @ :9394
+2023/06/10 23:21:57 main.go:92: Server started @ :9394
+2023/06/10 23:22:36 main.go:92: Server started @ :9394
+2023/06/10 23:22:46 main.go:92: Server started @ :9394
+2023/06/10 23:23:22 main.go:92: Server started @ :9394
+2023/06/10 23:24:02 handlers.go:57: [::1]:60648
+2023/06/10 23:27:02 main.go:92: Server started @ :9394
+2023/06/10 23:28:03 main.go:92: Server started @ :9394
+2023/06/10 23:31:25 main.go:92: Server started @ :9394
+2023/06/10 23:31:43 handlers.go:57: [::1]:47678
+2023/06/10 23:32:40 main.go:92: Server started @ :9394
+2023/06/10 23:32:47 main.go:92: Server started @ :9394
+2023/06/10 23:32:51 handlers.go:57: [::1]:58490
+2023/06/10 23:34:00 main.go:92: Server started @ :9394
+2023/06/10 23:36:13 main.go:92: Server started @ :9394
+2023/06/10 23:36:15 main.go:92: Server started @ :9394
+2023/06/10 23:36:22 main.go:92: Server started @ :9394
+2023/06/10 23:37:48 main.go:92: Server started @ :9394
+2023/06/10 23:38:08 main.go:92: Server started @ :9394
+2023/06/10 23:38:10 main.go:92: Server started @ :9394
+2023/06/10 23:38:23 main.go:92: Server started @ :9394
+2023/06/10 23:38:35 main.go:92: Server started @ :9394
+2023/06/10 23:38:36 main.go:92: Server started @ :9394
+2023/06/10 23:38:37 main.go:92: Server started @ :9394
+2023/06/10 23:38:53 handlers.go:57: [::1]:55066
+2023/06/10 23:39:35 main.go:92: Server started @ :9394
+2023/06/10 23:39:40 handlers.go:57: [::1]:57024
+2023/06/10 23:40:57 main.go:92: Server started @ :9394
+2023/06/10 23:41:00 main.go:92: Server started @ :9394
+2023/06/10 23:41:32 main.go:92: Server started @ :9394
+2023/06/10 23:41:35 handlers.go:57: [::1]:60480
+2023/06/10 23:41:35 handlers.go:57: [::1]:60480
+2023/06/10 23:41:35 server.go:3230: http: panic serving [::1]:60480: runtime error: index out of range [-1]
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc00001a2b8})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc00017a0e0}, 0xc000160200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00011faf0?, {0x7f71c8?, 0xc00017a0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc00017a0e0}, 0xc000160200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00010af60?}, {0x7f71c8, 0xc00017a0e0}, 0xc000160200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000246000, {0x7f7620, 0xc00010af00})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:41:35 handlers.go:57: [::1]:60490
+2023/06/10 23:41:35 server.go:3230: http: panic serving [::1]:60490: runtime error: index out of range [-1]
+goroutine 57 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000192078})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc0001b0000}, 0xc0000ae700)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00005aaf0?, {0x7f71c8?, 0xc0001b0000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc0001b0000}, 0xc0000ae700)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002201e0?}, {0x7f71c8, 0xc0001b0000}, 0xc0000ae700)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002460a0, {0x7f7620, 0xc00010af00})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:41:35 handlers.go:57: [::1]:60494
+2023/06/10 23:41:35 server.go:3230: http: panic serving [::1]:60494: runtime error: index out of range [-1]
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0001920d8})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc0001b00e0}, 0xc000190100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00005aaf0?, {0x7f71c8?, 0xc0001b00e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc0001b00e0}, 0xc000190100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001824b0?}, {0x7f71c8, 0xc0001b00e0}, 0xc000190100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001cc000, {0x7f7620, 0xc00010af00})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:42:24 main.go:92: Server started @ :9394
+2023/06/10 23:42:25 main.go:92: Server started @ :9394
+2023/06/10 23:42:30 handlers.go:57: [::1]:32850
+2023/06/10 23:42:30 handlers.go:57: [::1]:32850
+2023/06/10 23:42:30 server.go:3230: http: panic serving [::1]:32850: runtime error: index out of range [-1]
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc00001a270})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc000162000}, 0xc000160100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7f71c8?, 0xc000162000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc000162000}, 0xc000160100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00021a0f0?}, {0x7f71c8, 0xc000162000}, 0xc000160100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000236000, {0x7f7620, 0xc0000903f0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:42:30 handlers.go:57: [::1]:32862
+2023/06/10 23:42:30 server.go:3230: http: panic serving [::1]:32862: runtime error: index out of range [-1]
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0001982b8})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc000246000}, 0xc00009e100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f71c8?, 0xc000246000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc000246000}, 0xc00009e100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000904b0?}, {0x7f71c8, 0xc000246000}, 0xc00009e100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000cc000, {0x7f7620, 0xc0000903f0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:42:30 handlers.go:57: [::1]:32864
+2023/06/10 23:42:30 server.go:3230: http: panic serving [::1]:32864: runtime error: index out of range [-1]
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0000a00c0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc0000e20e0}, 0xc00009e200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00023caf0?, {0x7f71c8?, 0xc0000e20e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc0000e20e0}, 0xc00009e200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000090960?}, {0x7f71c8, 0xc0000e20e0}, 0xc00009e200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000cc140, {0x7f7620, 0xc0000903f0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:42:41 main.go:92: Server started @ :9394
+2023/06/10 23:42:45 handlers.go:57: [::1]:48282
+2023/06/10 23:42:45 handlers.go:57: [::1]:48282
+2023/06/10 23:42:45 server.go:3230: http: panic serving [::1]:48282: runtime error: index out of range [-1]
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0000a2228})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc0000f6000}, 0xc0000a0800)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7f71c8?, 0xc0000f6000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc0000f6000}, 0xc0000a0800)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000ce870?}, {0x7f71c8, 0xc0000f6000}, 0xc0000a0800)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000294000, {0x7f7620, 0xc0000ce810})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:42:45 handlers.go:57: [::1]:48294
+2023/06/10 23:42:45 server.go:3230: http: panic serving [::1]:48294: runtime error: index out of range [-1]
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0000a2288})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc0000f60e0}, 0xc00018e200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc00029aaf0?, {0x7f71c8?, 0xc0000f60e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc0000f60e0}, 0xc00018e200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000183c80?}, {0x7f71c8, 0xc0000f60e0}, 0xc00018e200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002940a0, {0x7f7620, 0xc0000ce810})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:42:45 handlers.go:57: [::1]:48310
+2023/06/10 23:42:45 server.go:3230: http: panic serving [::1]:48310: runtime error: index out of range [-1]
+goroutine 48 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000220048})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f71c8, 0xc000226000}, 0xc000210000)
+	/home/john/Documents/programming/programming/test_server/handlers.go:64 +0x20e
+net/http.HandlerFunc.ServeHTTP(0xc000296af0?, {0x7f71c8?, 0xc000226000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f71c8, 0xc000226000}, 0xc000210000)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002020f0?}, {0x7f71c8, 0xc000226000}, 0xc000210000)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000fe000, {0x7f7620, 0xc0000ce810})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/10 23:43:00 main.go:92: Server started @ :9394
+2023/06/10 23:43:02 handlers.go:57: [::1]:56016
+2023/06/10 23:43:09 main.go:92: Server started @ :9394
+2023/06/10 23:43:48 main.go:92: Server started @ :9394
+2023/06/10 23:44:02 main.go:92: Server started @ :9394
+2023/06/10 23:44:24 main.go:92: Server started @ :9394
+2023/06/10 23:44:52 main.go:92: Server started @ :9394
+2023/06/10 23:45:06 main.go:92: Server started @ :9394
+2023/06/10 23:45:19 main.go:92: Server started @ :9394
+2023/06/10 23:45:27 main.go:92: Server started @ :9394
+2023/06/10 23:45:38 main.go:92: Server started @ :9394
+2023/06/10 23:46:16 main.go:92: Server started @ :9394
+2023/06/10 23:46:41 main.go:92: Server started @ :9394
+2023/06/10 23:47:01 main.go:92: Server started @ :9394
+2023/06/10 23:47:18 main.go:92: Server started @ :9394
+2023/06/10 23:48:19 main.go:92: Server started @ :9394
+2023/06/10 23:48:41 main.go:92: Server started @ :9394
+2023/06/10 23:49:01 main.go:92: Server started @ :9394
+2023/06/10 23:49:05 main.go:92: Server started @ :9394
+2023/06/10 23:49:11 main.go:92: Server started @ :9394
+2023/06/10 23:50:40 main.go:92: Server started @ :9394
+2023/06/10 23:50:54 main.go:92: Server started @ :9394
+2023/06/10 23:50:58 main.go:92: Server started @ :9394
+2023/06/10 23:51:06 handlers.go:57: [::1]:57326
+2023/06/10 23:51:10 handlers.go:57: [::1]:57326
+2023/06/10 23:51:35 main.go:92: Server started @ :9394
+2023/06/10 23:52:08 main.go:92: Server started @ :9394
+2023/06/10 23:53:18 main.go:92: Server started @ :9394
+2023/06/10 23:53:26 main.go:92: Server started @ :9394
+2023/06/10 23:53:35 handlers.go:57: [::1]:50960
+2023/06/10 23:54:20 main.go:92: Server started @ :9394
+2023/06/10 23:54:36 main.go:92: Server started @ :9394
+2023/06/10 23:54:52 main.go:92: Server started @ :9394
+2023/06/10 23:55:19 main.go:92: Server started @ :9394
+2023/06/10 23:55:40 handlers.go:57: 10.0.0.86:41754
+2023/06/10 23:56:22 main.go:92: Server started @ :9394
+2023/06/10 23:56:30 main.go:92: Server started @ :9394
+2023/06/10 23:57:06 main.go:92: Server started @ :9394
+2023/06/10 23:57:25 main.go:92: Server started @ :9394
+2023/06/10 23:59:01 main.go:92: Server started @ :9394
+2023/06/11 00:01:11 main.go:92: Server started @ :9394
+2023/06/11 00:04:09 main.go:92: Server started @ :9394
+2023/06/11 00:04:42 main.go:92: Server started @ :9394
+2023/06/11 00:05:20 main.go:92: Server started @ :9394
+2023/06/11 00:07:44 main.go:92: Server started @ :9394
+2023/06/11 00:08:29 main.go:92: Server started @ :9394
+2023/06/11 00:08:31 main.go:92: Server started @ :9394
+2023/06/11 00:09:24 main.go:92: Server started @ :9394
+2023/06/11 00:10:34 main.go:92: Server started @ :9394
+2023/06/11 00:11:14 main.go:92: Server started @ :9394
+2023/06/11 00:11:18 handlers.go:57: [::1]:53380
+2023/06/11 00:13:22 main.go:92: Server started @ :9394
+2023/06/11 00:13:24 handlers.go:57: [::1]:36506
+2023/06/11 00:13:53 main.go:92: Server started @ :9394
+2023/06/11 00:13:55 handlers.go:57: [::1]:46998
+2023/06/11 00:14:21 main.go:92: Server started @ :9394
+2023/06/11 00:14:24 handlers.go:57: [::1]:43958
+2023/06/11 00:17:28 main.go:96: Server started @ :9394
+2023/06/11 00:17:31 handlers.go:57: [::1]:52136
+2023/06/11 00:18:48 main.go:96: Server started @ :9394
+2023/06/11 00:18:59 main.go:96: Server started @ :9394
+2023/06/11 00:19:34 main.go:96: Server started @ :9394
+2023/06/11 00:20:47 main.go:96: Server started @ :9394
+2023/06/11 00:20:56 main.go:96: Server started @ :9394
+2023/06/11 00:21:19 main.go:96: Server started @ :9394
+2023/06/11 00:22:00 main.go:96: Server started @ :9394
+2023/06/11 00:22:06 main.go:96: Server started @ :9394
+2023/06/11 00:22:41 main.go:96: Server started @ :9394
+2023/06/11 00:22:45 main.go:96: Server started @ :9394
+2023/06/11 00:23:01 main.go:96: Server started @ :9394
+2023/06/11 00:24:17 main.go:96: Server started @ :9394
+2023/06/11 00:24:26 main.go:98: Server started @ :9394
+2023/06/11 00:33:21 handlers.go:61: 10.0.0.86:55936
+2023/06/11 00:33:35 handlers.go:61: 10.0.0.86:34050
+2023/06/11 00:33:38 handlers.go:61: 10.0.0.86:34050
+2023/06/11 00:33:40 handlers.go:61: 10.0.0.86:34050
+2023/06/11 00:33:42 handlers.go:61: 10.0.0.86:34050
+2023/06/11 00:33:46 handlers.go:61: 10.0.0.86:34050
+2023/06/11 00:40:42 handlers.go:61: [::1]:46380
+2023/06/11 00:45:02 handlers.go:61: [::1]:41304
+2023/06/11 00:45:25 main.go:98: Server started @ :9394
+2023/06/11 00:45:30 handlers.go:61: [::1]:52656
+2023/06/11 00:48:01 handlers.go:61: [::1]:53514
+2023/06/11 00:48:17 main.go:98: Server started @ :9394
+2023/06/11 00:48:21 handlers.go:61: [::1]:59256
+2023/06/11 00:50:31 main.go:98: Server started @ :9394
+2023/06/11 00:50:34 main.go:98: Server started @ :9394
+2023/06/11 00:50:44 main.go:98: Server started @ :9394
+2023/06/11 00:50:47 handlers.go:61: [::1]:53026
+2023/06/11 00:53:41 main.go:98: Server started @ :9394
+2023/06/11 00:53:44 handlers.go:61: [::1]:43318
+2023/06/11 00:53:56 main.go:98: Server started @ :9394
+2023/06/11 00:53:58 handlers.go:61: [::1]:59456
+2023/06/11 00:55:28 main.go:98: Server started @ :9394
+2023/06/11 00:55:30 main.go:98: Server started @ :9394
+2023/06/11 00:55:33 handlers.go:61: [::1]:44446
+2023/06/11 00:55:48 main.go:98: Server started @ :9394
+2023/06/11 00:55:57 main.go:98: Server started @ :9394
+2023/06/11 00:56:17 handlers.go:61: [::1]:41678
+2023/06/11 00:56:31 main.go:98: Server started @ :9394
+2023/06/11 00:56:33 handlers.go:61: [::1]:39132
+2023/06/11 00:56:42 main.go:98: Server started @ :9394
+2023/06/11 00:57:06 main.go:98: Server started @ :9394
+2023/06/11 00:57:08 handlers.go:61: [::1]:44994
+2023/06/11 00:58:51 main.go:98: Server started @ :9394
+2023/06/11 00:58:59 main.go:98: Server started @ :9394
+2023/06/11 00:59:02 handlers.go:61: [::1]:51378
+2023/06/11 00:59:37 main.go:98: Server started @ :9394
+2023/06/11 00:59:45 main.go:98: Server started @ :9394
+2023/06/11 00:59:48 handlers.go:61: [::1]:59872
+2023/06/11 01:00:25 handlers.go:61: [::1]:59862
+2023/06/11 01:00:38 main.go:98: Server started @ :9394
+2023/06/11 01:00:40 main.go:98: Server started @ :9394
+2023/06/11 01:01:05 handlers.go:61: [::1]:51328
+2023/06/11 01:01:53 handlers.go:61: [::1]:44124
+2023/06/11 01:02:36 main.go:98: Server started @ :9394
+2023/06/11 01:02:40 handlers.go:61: [::1]:57376
+2023/06/11 01:02:50 main.go:98: Server started @ :9394
+2023/06/11 01:03:19 handlers.go:61: [::1]:41930
+2023/06/11 01:03:21 handlers.go:61: [::1]:41930
+2023/06/11 01:03:33 main.go:98: Server started @ :9394
+2023/06/11 01:03:35 handlers.go:61: [::1]:38290
+2023/06/11 01:03:57 main.go:98: Server started @ :9394
+2023/06/11 01:03:59 handlers.go:61: [::1]:51624
+2023/06/11 01:05:18 main.go:98: Server started @ :9394
+2023/06/11 01:05:46 main.go:98: Server started @ :9394
+2023/06/11 01:05:48 handlers.go:61: [::1]:42086
+2023/06/11 01:07:06 main.go:98: Server started @ :9394
+2023/06/11 01:07:21 main.go:98: Server started @ :9394
+2023/06/11 01:07:24 handlers.go:61: [::1]:49282
+2023/06/11 01:07:31 main.go:98: Server started @ :9394
+2023/06/11 01:07:34 handlers.go:61: [::1]:41988
+2023/06/11 01:11:15 main.go:98: Server started @ :9394
+2023/06/11 01:15:11 main.go:98: Server started @ :9394
+2023/06/11 01:15:13 main.go:98: Server started @ :9394
+2023/06/11 01:15:27 main.go:98: Server started @ :9394
+2023/06/11 01:16:03 main.go:98: Server started @ :9394
+2023/06/11 01:16:56 main.go:98: Server started @ :9394
+2023/06/11 01:16:58 main.go:98: Server started @ :9394
+2023/06/11 01:18:18 main.go:98: Server started @ :9394
+2023/06/11 01:18:19 main.go:98: Server started @ :9394
+2023/06/11 01:19:24 main.go:98: Server started @ :9394
+2023/06/11 01:19:40 main.go:98: Server started @ :9394
+2023/06/11 01:20:41 main.go:98: Server started @ :9394
+2023/06/11 01:21:24 main.go:98: Server started @ :9394
+2023/06/11 01:22:11 main.go:98: Server started @ :9394
+2023/06/11 01:22:54 main.go:98: Server started @ :9394
+2023/06/11 01:23:16 main.go:98: Server started @ :9394
+2023/06/11 01:25:05 main.go:98: Server started @ :9394
+2023/06/11 01:26:05 main.go:98: Server started @ :9394
+2023/06/11 01:28:06 main.go:98: Server started @ :9394
+2023/06/11 01:29:55 main.go:98: Server started @ :9394
+2023/06/11 01:30:46 main.go:98: Server started @ :9394
+2023/06/11 01:31:36 main.go:98: Server started @ :9394
+2023/06/11 01:31:37 main.go:98: Server started @ :9394
+2023/06/11 01:32:01 main.go:98: Server started @ :9394
+2023/06/11 01:32:40 main.go:98: Server started @ :9394
+2023/06/11 01:32:53 main.go:98: Server started @ :9394
+2023/06/11 01:33:09 main.go:98: Server started @ :9394
+2023/06/11 01:35:21 main.go:98: Server started @ :9394
+2023/06/11 01:38:00 main.go:98: Server started @ :9394
+2023/06/11 01:38:11 handlers.go:61: [::1]:54850
+2023/06/11 01:39:36 main.go:98: Server started @ :9394
+2023/06/11 01:39:38 handlers.go:61: [::1]:58758
+2023/06/11 01:40:42 main.go:98: Server started @ :9394
+2023/06/11 01:40:43 handlers.go:61: [::1]:49748
+2023/06/11 01:41:17 main.go:98: Server started @ :9394
+2023/06/11 01:41:19 handlers.go:61: [::1]:40062
+2023/06/11 01:42:18 main.go:98: Server started @ :9394
+2023/06/11 01:42:20 handlers.go:61: [::1]:57786
+2023/06/11 01:43:35 main.go:98: Server started @ :9394
+2023/06/11 01:43:38 handlers.go:61: [::1]:42316
+2023/06/11 01:44:17 main.go:98: Server started @ :9394
+2023/06/11 01:44:19 handlers.go:61: [::1]:36614
+2023/06/11 01:44:40 handlers.go:61: [::1]:55772
+2023/06/11 01:45:09 handlers.go:61: [::1]:56808
+2023/06/11 01:46:29 handlers.go:61: [::1]:48004
+2023/06/11 01:48:43 main.go:98: Server started @ :9394
+2023/06/11 01:48:51 main.go:98: Server started @ :9394
+2023/06/11 01:48:53 handlers.go:61: [::1]:36796
+2023/06/11 01:49:26 main.go:98: Server started @ :9394
+2023/06/11 01:49:28 handlers.go:61: [::1]:39006
+2023/06/11 01:49:48 main.go:98: Server started @ :9394
+2023/06/11 01:49:51 handlers.go:61: [::1]:46202
+2023/06/11 01:50:03 main.go:98: Server started @ :9394
+2023/06/11 01:50:05 handlers.go:61: [::1]:38234
+2023/06/11 01:50:13 main.go:98: Server started @ :9394
+2023/06/11 01:50:18 main.go:98: Server started @ :9394
+2023/06/11 01:51:02 main.go:98: Server started @ :9394
+2023/06/11 01:51:04 handlers.go:61: [::1]:56206
+2023/06/11 01:51:33 main.go:98: Server started @ :9394
+2023/06/11 01:51:52 main.go:98: Server started @ :9394
+2023/06/11 01:51:54 handlers.go:61: [::1]:33644
+2023/06/11 01:52:02 main.go:98: Server started @ :9394
+2023/06/11 01:52:04 handlers.go:61: [::1]:36092
+2023/06/11 01:52:51 main.go:98: Server started @ :9394
+2023/06/11 01:52:53 handlers.go:61: [::1]:51546
+2023/06/11 01:53:32 handlers.go:61: [::1]:54136
+2023/06/11 01:54:00 main.go:98: Server started @ :9394
+2023/06/11 01:56:21 handlers.go:61: [::1]:34308
+2023/06/11 01:56:27 handlers.go:61: [::1]:34330
+2023/06/11 01:57:08 main.go:98: Server started @ :9394
+2023/06/11 01:57:13 handlers.go:61: [::1]:57342
+2023/06/11 01:58:26 main.go:98: Server started @ :9394
+2023/06/11 01:58:39 main.go:98: Server started @ :9394
+2023/06/11 01:58:45 handlers.go:61: [::1]:37660
+2023/06/11 01:59:39 main.go:98: Server started @ :9394
+2023/06/11 02:00:17 main.go:98: Server started @ :9394
+2023/06/11 02:00:22 main.go:98: Server started @ :9394
+2023/06/11 02:00:24 handlers.go:61: [::1]:47940
+2023/06/11 02:01:00 main.go:98: Server started @ :9394
+2023/06/11 02:01:03 handlers.go:61: [::1]:48882
+2023/06/11 02:01:34 main.go:98: Server started @ :9394
+2023/06/11 02:01:38 handlers.go:61: [::1]:56250
+2023/06/11 02:01:40 handlers.go:61: [::1]:56250
+2023/06/11 02:02:28 main.go:98: Server started @ :9394
+2023/06/11 02:02:32 handlers.go:61: [::1]:39620
+2023/06/11 02:02:45 main.go:98: Server started @ :9394
+2023/06/11 02:02:47 handlers.go:61: [::1]:40694
+2023/06/11 02:04:03 main.go:98: Server started @ :9394
+2023/06/11 02:04:06 main.go:98: Server started @ :9394
+2023/06/11 02:04:16 main.go:98: Server started @ :9394
+2023/06/11 02:04:18 handlers.go:61: [::1]:33078
+2023/06/11 02:05:24 handlers.go:61: [::1]:45902
+2023/06/11 02:05:42 main.go:98: Server started @ :9394
+2023/06/11 02:05:53 main.go:98: Server started @ :9394
+2023/06/11 02:05:54 handlers.go:61: [::1]:45086
+2023/06/11 02:06:35 main.go:98: Server started @ :9394
+2023/06/11 02:06:37 handlers.go:61: [::1]:33616
+2023/06/11 02:07:48 main.go:98: Server started @ :9394
+2023/06/11 02:08:07 handlers.go:61: [::1]:54740
+2023/06/11 02:08:28 main.go:98: Server started @ :9394
+2023/06/11 02:08:30 handlers.go:61: [::1]:59772
+2023/06/11 02:08:36 main.go:98: Server started @ :9394
+2023/06/11 02:08:37 handlers.go:61: [::1]:59784
+2023/06/11 02:08:46 main.go:98: Server started @ :9394
+2023/06/11 02:08:55 handlers.go:61: [::1]:41466
+2023/06/11 02:09:26 main.go:98: Server started @ :9394
+2023/06/11 02:09:28 handlers.go:61: [::1]:51960
+2023/06/11 02:09:46 main.go:98: Server started @ :9394
+2023/06/11 02:09:58 main.go:98: Server started @ :9394
+2023/06/11 02:10:04 main.go:98: Server started @ :9394
+2023/06/11 02:10:06 handlers.go:61: [::1]:51546
+2023/06/11 02:10:17 main.go:98: Server started @ :9394
+2023/06/11 02:10:21 main.go:98: Server started @ :9394
+2023/06/11 02:10:23 handlers.go:61: [::1]:48894
+2023/06/11 02:10:39 main.go:98: Server started @ :9394
+2023/06/11 02:10:41 handlers.go:61: [::1]:42946
+2023/06/11 02:11:02 main.go:98: Server started @ :9394
+2023/06/11 02:11:04 handlers.go:61: [::1]:38516
+2023/06/11 02:11:17 main.go:98: Server started @ :9394
+2023/06/11 02:11:18 handlers.go:61: [::1]:48482
+2023/06/11 02:11:53 main.go:98: Server started @ :9394
+2023/06/11 02:11:55 handlers.go:61: [::1]:35230
+2023/06/11 02:12:02 main.go:98: Server started @ :9394
+2023/06/11 02:12:04 handlers.go:61: [::1]:44412
+2023/06/11 02:12:33 main.go:98: Server started @ :9394
+2023/06/11 02:12:35 handlers.go:61: [::1]:41488
+2023/06/11 02:12:51 main.go:98: Server started @ :9394
+2023/06/11 02:12:53 handlers.go:61: [::1]:41942
+2023/06/11 02:13:15 main.go:98: Server started @ :9394
+2023/06/11 02:13:16 handlers.go:61: [::1]:49924
+2023/06/11 02:13:41 main.go:98: Server started @ :9394
+2023/06/11 02:14:14 main.go:98: Server started @ :9394
+2023/06/11 02:14:17 handlers.go:61: [::1]:57766
+2023/06/11 02:14:24 main.go:98: Server started @ :9394
+2023/06/11 02:14:26 handlers.go:61: [::1]:55196
+2023/06/11 02:15:06 main.go:98: Server started @ :9394
+2023/06/11 02:15:10 handlers.go:61: [::1]:48758
+2023/06/11 02:16:09 main.go:98: Server started @ :9394
+2023/06/11 02:16:10 handlers.go:61: [::1]:47690
+2023/06/11 02:16:14 handlers.go:61: [::1]:47690
+2023/06/11 02:16:22 main.go:98: Server started @ :9394
+2023/06/11 02:16:24 handlers.go:61: [::1]:41514
+2023/06/11 02:16:57 main.go:98: Server started @ :9394
+2023/06/11 02:17:00 handlers.go:61: [::1]:45022
+2023/06/11 02:17:08 main.go:98: Server started @ :9394
+2023/06/11 02:17:10 handlers.go:61: [::1]:57888
+2023/06/11 02:18:12 handlers.go:61: [::1]:51974
+2023/06/11 02:20:29 main.go:98: Server started @ :9394
+2023/06/11 02:20:44 main.go:98: Server started @ :9394
+2023/06/11 02:20:46 handlers.go:61: [::1]:42686
+2023/06/11 02:21:00 handlers.go:61: [::1]:55740
+2023/06/11 02:22:23 main.go:98: Server started @ :9394
+2023/06/11 02:22:48 main.go:98: Server started @ :9394
+2023/06/11 02:23:15 main.go:98: Server started @ :9394
+2023/06/11 02:23:44 main.go:98: Server started @ :9394
+2023/06/11 02:24:32 main.go:98: Server started @ :9394
+2023/06/11 02:24:37 main.go:98: Server started @ :9394
+2023/06/11 02:27:41 main.go:98: Server started @ :9394
+2023/06/11 02:28:06 handlers.go:61: [::1]:60834
+2023/06/11 02:28:32 main.go:98: Server started @ :9394
+2023/06/11 02:28:38 handlers.go:61: [::1]:42216
+2023/06/11 02:29:02 main.go:98: Server started @ :9394
+2023/06/11 02:29:05 handlers.go:61: [::1]:37084
+2023/06/11 02:29:21 handlers.go:61: [::1]:53686
+2023/06/11 02:31:24 handlers.go:61: [::1]:39144
+2023/06/11 02:32:05 main.go:98: Server started @ :9394
+2023/06/11 02:32:10 handlers.go:61: [::1]:58246
+2023/06/11 02:32:19 handlers.go:61: [::1]:43586
+2023/06/11 02:35:44 main.go:98: Server started @ :9394
+2023/06/11 02:37:44 main.go:98: Server started @ :9394
+2023/06/11 02:38:52 main.go:98: Server started @ :9394
+2023/06/11 02:39:03 main.go:98: Server started @ :9394
+2023/06/11 02:40:40 main.go:98: Server started @ :9394
+2023/06/11 02:40:42 main.go:98: Server started @ :9394
+2023/06/11 02:41:27 main.go:98: Server started @ :9394
+2023/06/11 02:42:37 handlers.go:61: 10.0.0.86:43106
+2023/06/11 02:43:26 handlers.go:61: 10.0.0.86:49966
+2023/06/11 02:54:41 handlers.go:61: [::1]:34952
+2023/06/11 02:57:51 main.go:98: Server started @ :9394
+2023/06/11 02:58:14 main.go:98: Server started @ :9394
+2023/06/11 02:58:18 main.go:98: Server started @ :9394
+2023/06/11 02:58:26 handlers.go:61: [::1]:39896
+2023/06/11 02:58:46 main.go:98: Server started @ :9394
+2023/06/11 03:00:53 main.go:98: Server started @ :9394
+2023/06/11 03:01:42 main.go:98: Server started @ :9394
+2023/06/11 03:02:05 handlers.go:61: [::1]:55908
+2023/06/11 03:03:26 main.go:98: Server started @ :9394
+2023/06/11 03:03:47 main.go:98: Server started @ :9394
+2023/06/11 03:03:53 main.go:98: Server started @ :9394
+2023/06/11 03:04:25 handlers.go:61: [::1]:36606
+2023/06/11 03:05:47 main.go:98: Server started @ :9394
+2023/06/11 03:05:54 main.go:98: Server started @ :9394
+2023/06/11 03:06:21 main.go:98: Server started @ :9394
+2023/06/11 03:08:51 main.go:99: Server started @ :9394
+2023/06/11 03:09:16 main.go:99: Server started @ :9394
+2023/06/11 03:09:30 main.go:99: Server started @ :9394
+2023/06/11 03:10:50 main.go:99: Server started @ :9394
+2023/06/11 03:11:07 main.go:99: Server started @ :9394
+2023/06/11 03:11:18 main.go:99: Server started @ :9394
+2023/06/11 03:11:28 main.go:99: Server started @ :9394
+2023/06/11 03:11:30 handlers.go:62: [::1]:36820
+2023/06/11 03:11:52 main.go:99: Server started @ :9394
+2023/06/11 03:12:08 main.go:99: Server started @ :9394
+2023/06/11 03:12:14 main.go:99: Server started @ :9394
+2023/06/11 03:12:18 handlers.go:61: [::1]:52334
+2023/06/11 03:12:25 handlers.go:61: [::1]:52334
+2023/06/11 03:14:26 main.go:99: Server started @ :9394
+2023/06/11 03:16:08 main.go:99: Server started @ :9394
+2023/06/11 03:16:16 handlers.go:61: [::1]:43548
+2023/06/11 03:16:59 main.go:99: Server started @ :9394
+2023/06/11 03:17:15 main.go:99: Server started @ :9394
+2023/06/11 03:17:18 handlers.go:61: [::1]:52958
+2023/06/11 03:18:01 main.go:99: Server started @ :9394
+2023/06/11 03:18:40 main.go:99: Server started @ :9394
+2023/06/11 03:22:57 main.go:99: Server started @ :9394
+2023/06/11 03:25:33 handlers.go:61: 10.0.0.86:54572
+2023/06/11 03:26:06 handlers.go:61: 10.0.0.86:56680
+2023/06/11 03:26:09 handlers.go:61: 10.0.0.86:56680
+2023/06/11 03:26:13 main.go:99: Server started @ :9394
+2023/06/11 03:26:21 handlers.go:61: 10.0.0.86:56734
+2023/06/11 03:26:31 main.go:99: Server started @ :9394
+2023/06/11 03:28:02 handlers.go:61: [::1]:39560
+2023/06/11 03:28:43 main.go:99: Server started @ :9394
+2023/06/11 03:28:45 handlers.go:61: [::1]:36422
+2023/06/11 03:30:18 handlers.go:61: [::1]:53130
+2023/06/11 03:30:37 main.go:99: Server started @ :9394
+2023/06/11 03:30:39 handlers.go:61: [::1]:52138
+2023/06/11 03:32:07 main.go:99: Server started @ :9394
+2023/06/11 03:34:32 main.go:99: Server started @ :9394
+2023/06/11 03:35:03 main.go:99: Server started @ :9394
+2023/06/11 03:35:16 main.go:99: Server started @ :9394
+2023/06/11 03:35:26 handlers.go:61: [::1]:53700
+2023/06/11 03:35:47 main.go:99: Server started @ :9394
+2023/06/11 03:36:27 main.go:99: Server started @ :9394
+2023/06/11 03:36:29 handlers.go:61: [::1]:59020
+2023/06/11 03:37:19 main.go:99: Server started @ :9394
+2023/06/11 03:37:21 handlers.go:61: [::1]:37774
+2023/06/11 03:39:37 main.go:99: Server started @ :9394
+2023/06/11 03:41:01 main.go:99: Server started @ :9394
+2023/06/11 03:41:49 main.go:99: Server started @ :9394
+2023/06/11 03:42:20 main.go:99: Server started @ :9394
+2023/06/11 03:42:27 handlers.go:61: [::1]:53078
+2023/06/11 03:43:34 main.go:99: Server started @ :9394
+2023/06/11 03:43:37 handlers.go:61: [::1]:44764
+2023/06/11 03:46:56 handlers.go:61: [::1]:53298
+2023/06/11 03:47:28 handlers.go:61: [::1]:39080
+2023/06/11 03:49:28 handlers.go:61: [::1]:50906
+2023/06/11 03:50:46 handlers.go:61: [::1]:60440
+2023/06/11 03:51:02 handlers.go:61: [::1]:55822
+2023/06/11 03:51:24 main.go:99: Server started @ :9394
+2023/06/11 03:51:37 main.go:99: Server started @ :9394
+2023/06/11 03:51:57 main.go:99: Server started @ :9394
+2023/06/11 03:52:24 handlers.go:61: 10.0.0.86:41464
+2023/06/11 03:54:32 handlers.go:61: 10.0.0.86:45578
+2023/06/11 03:55:05 handlers.go:61: 10.0.0.86:54498
+2023/06/11 03:55:44 handlers.go:61: 10.0.0.86:55594
+2023/06/11 03:55:55 handlers.go:61: [::1]:48854
+2023/06/11 03:57:01 main.go:99: Server started @ :9394
+2023/06/11 03:57:02 main.go:99: Server started @ :9394
+2023/06/11 03:57:07 handlers.go:61: 10.0.0.86:44354
+2023/06/11 03:57:59 handlers.go:61: 10.0.0.86:41870
+2023/06/11 04:00:04 handlers.go:61: 10.0.0.86:39648
+2023/06/11 04:03:10 handlers.go:61: 10.0.0.86:45052
+2023/06/11 04:04:51 handlers.go:61: 10.0.0.86:46692
+2023/06/11 04:32:20 main.go:99: Server started @ :9394
+2023/06/11 04:32:25 main.go:99: Server started @ :9394
+2023/06/11 04:32:27 handlers.go:61: [::1]:51436
+2023/06/11 04:35:12 main.go:99: Server started @ :9394
+2023/06/11 04:36:45 main.go:99: Server started @ :9394
+2023/06/11 04:36:48 handlers.go:61: [::1]:48408
+2023/06/11 04:39:57 main.go:99: Server started @ :9394
+2023/06/11 04:40:06 handlers.go:61: [::1]:52986
+2023/06/11 04:44:00 main.go:99: Server started @ :9394
+2023/06/11 04:44:02 handlers.go:61: [::1]:38488
+2023/06/11 04:44:03 handlers.go:61: [::1]:38488
+2023/06/11 04:44:03 server.go:3230: http: panic serving [::1]:38488: runtime error: index out of range [-1]
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000212390})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002d60e0}, 0xc000210800)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7f72a8?, 0xc0002d60e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f72a8, 0xc0002d60e0}, 0xc000210800)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00029a180?}, {0x7f72a8, 0xc0002d60e0}, 0xc000210800)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002c2000, {0x7f7700, 0xc000090330})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 04:44:03 handlers.go:61: [::1]:38500
+2023/06/11 04:44:03 server.go:3230: http: panic serving [::1]:38500: runtime error: index out of range [-1]
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0002123f0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002d61c0}, 0xc0000a2100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f72a8?, 0xc0002d61c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f72a8, 0xc0002d61c0}, 0xc0000a2100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000903f0?}, {0x7f72a8, 0xc0002d61c0}, 0xc0000a2100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000be000, {0x7f7700, 0xc000090330})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 04:44:03 handlers.go:61: [::1]:38506
+2023/06/11 04:44:03 server.go:3230: http: panic serving [::1]:38506: runtime error: index out of range [-1]
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000212450})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002d62a0}, 0xc000210900)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f72a8?, 0xc0002d62a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7f72a8, 0xc0002d62a0}, 0xc000210900)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00029a840?}, {0x7f72a8, 0xc0002d62a0}, 0xc000210900)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002c2140, {0x7f7700, 0xc000090330})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 04:44:21 main.go:99: Server started @ :9394
+2023/06/11 04:44:23 handlers.go:61: [::1]:42526
+2023/06/11 04:47:17 main.go:99: Server started @ :9394
+2023/06/11 04:47:36 handlers.go:61: [::1]:45710
+2023/06/11 04:47:43 handlers.go:61: [::1]:45728
+2023/06/11 04:47:46 handlers.go:61: [::1]:45728
+2023/06/11 04:49:11 main.go:99: Server started @ :9394
+2023/06/11 04:49:14 handlers.go:61: [::1]:33488
+2023/06/11 04:49:18 handlers.go:61: [::1]:33488
+2023/06/11 04:51:03 main.go:99: Server started @ :9394
+2023/06/11 04:51:06 handlers.go:61: [::1]:49330
+2023/06/11 04:51:11 handlers.go:61: [::1]:49330
+2023/06/11 04:51:26 main.go:99: Server started @ :9394
+2023/06/11 04:51:27 handlers.go:61: [::1]:51732
+2023/06/11 04:51:32 handlers.go:61: [::1]:51732
+2023/06/11 04:54:29 main.go:99: Server started @ :9394
+2023/06/11 04:54:34 handlers.go:61: [::1]:51746
+2023/06/11 04:54:47 handlers.go:61: [::1]:55144
+2023/06/11 04:54:52 handlers.go:61: [::1]:55144
+2023/06/11 04:55:13 main.go:99: Server started @ :9394
+2023/06/11 04:55:34 main.go:99: Server started @ :9394
+2023/06/11 04:57:35 main.go:99: Server started @ :9394
+2023/06/11 04:58:23 main.go:99: Server started @ :9394
+2023/06/11 04:58:37 main.go:99: Server started @ :9394
+2023/06/11 04:58:51 main.go:99: Server started @ :9394
+2023/06/11 04:58:57 handlers.go:61: [::1]:60906
+2023/06/11 04:59:50 handlers.go:61: [::1]:45262
+2023/06/11 04:59:55 handlers.go:61: [::1]:38722
+2023/06/11 05:01:29 main.go:99: Server started @ :9394
+2023/06/11 05:01:34 main.go:99: Server started @ :9394
+2023/06/11 05:01:39 handlers.go:61: [::1]:58348
+2023/06/11 05:01:39 handlers.go:69: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:01:47 handlers.go:61: [::1]:36568
+2023/06/11 05:01:47 handlers.go:69: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:01:57 main.go:99: Server started @ :9394
+2023/06/11 05:02:00 handlers.go:61: [::1]:33866
+2023/06/11 05:02:00 server.go:3230: http: panic serving [::1]:33866: runtime error: index out of range [12] with length 12
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000190120})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc000284000}, 0xc000160300)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x286
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7f72a8?, 0xc000284000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001a82de?, {0x7f72a8, 0xc000284000}, 0xc000160300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00016d530?}, {0x7f72a8, 0xc000284000}, 0xc000160300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000aa0, {0x7f7700, 0xc000096cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:02:00 handlers.go:61: [::1]:33874
+2023/06/11 05:02:00 server.go:3230: http: panic serving [::1]:33874: runtime error: index out of range [12] with length 12
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000190198})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002840e0}, 0xc00018e300)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x286
+net/http.HandlerFunc.ServeHTTP(0xc0001eeaf0?, {0x7f72a8?, 0xc0002840e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001a830e?, {0x7f72a8, 0xc0002840e0}, 0xc00018e300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001838c0?}, {0x7f72a8, 0xc0002840e0}, 0xc00018e300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000e2000, {0x7f7700, 0xc000096cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:02:00 handlers.go:61: [::1]:33876
+2023/06/11 05:02:00 server.go:3230: http: panic serving [::1]:33876: runtime error: index out of range [12] with length 12
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000190210})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002841c0}, 0xc00018e400)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x286
+net/http.HandlerFunc.ServeHTTP(0xc0001eeaf0?, {0x7f72a8?, 0xc0002841c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001a833e?, {0x7f72a8, 0xc0002841c0}, 0xc00018e400)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000183bf0?}, {0x7f72a8, 0xc0002841c0}, 0xc00018e400)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002ae000, {0x7f7700, 0xc000096cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:02:01 handlers.go:61: [::1]:33884
+2023/06/11 05:02:01 server.go:3230: http: panic serving [::1]:33884: runtime error: index out of range [12] with length 12
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000190288})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002842a0}, 0xc00018e500)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x286
+net/http.HandlerFunc.ServeHTTP(0xc0001eeaf0?, {0x7f72a8?, 0xc0002842a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001a836e?, {0x7f72a8, 0xc0002842a0}, 0xc00018e500)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000183d70?}, {0x7f72a8, 0xc0002842a0}, 0xc00018e500)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002ae0a0, {0x7f7700, 0xc000096cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:02:06 handlers.go:61: [::1]:37584
+2023/06/11 05:02:06 server.go:3230: http: panic serving [::1]:37584: runtime error: index out of range [12] with length 12
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000190300})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc000284380}, 0xc00018e700)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x286
+net/http.HandlerFunc.ServeHTTP(0xc00005faf0?, {0x7f72a8?, 0xc000284380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001a839e?, {0x7f72a8, 0xc000284380}, 0xc00018e700)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000183fb0?}, {0x7f72a8, 0xc000284380}, 0xc00018e700)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002ae1e0, {0x7f7700, 0xc000096cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:02:09 main.go:99: Server started @ :9394
+2023/06/11 05:02:11 handlers.go:61: [::1]:37612
+2023/06/11 05:02:11 handlers.go:69: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:02:16 handlers.go:61: [::1]:37612
+2023/06/11 05:02:16 handlers.go:69: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:02:48 main.go:99: Server started @ :9394
+2023/06/11 05:02:55 main.go:99: Server started @ :9394
+2023/06/11 05:02:57 handlers.go:61: [::1]:35474
+2023/06/11 05:02:57 handlers.go:68: 12
+2023/06/11 05:02:57 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:03:00 handlers.go:61: [::1]:35474
+2023/06/11 05:03:00 handlers.go:68: 12
+2023/06/11 05:03:00 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:03:38 handlers.go:61: [::1]:54180
+2023/06/11 05:03:38 handlers.go:68: 12
+2023/06/11 05:03:38 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:03:53 handlers.go:61: [::1]:37740
+2023/06/11 05:03:53 handlers.go:68: 12
+2023/06/11 05:03:53 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:03:58 handlers.go:61: [::1]:37740
+2023/06/11 05:03:58 handlers.go:68: 12
+2023/06/11 05:03:58 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:04:02 handlers.go:61: [::1]:37740
+2023/06/11 05:04:02 handlers.go:68: 12
+2023/06/11 05:04:02 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:04:04 handlers.go:61: [::1]:37740
+2023/06/11 05:04:04 handlers.go:68: 12
+2023/06/11 05:04:04 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:04:06 handlers.go:61: [::1]:37740
+2023/06/11 05:04:06 handlers.go:68: 12
+2023/06/11 05:04:06 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:04:13 handlers.go:61: [::1]:47880
+2023/06/11 05:04:13 handlers.go:68: 12
+2023/06/11 05:04:13 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:04:39 main.go:99: Server started @ :9394
+2023/06/11 05:04:45 handlers.go:61: [::1]:36836
+2023/06/11 05:04:45 server.go:3230: http: panic serving [::1]:36836: runtime error: index out of range [12] with length 12
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc000196120})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0001e0000}, 0xc000160500)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x335
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7f82c8?, 0xc0001e0000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00019e48e?, {0x7f82c8, 0xc0001e0000}, 0xc000160500)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00020ac90?}, {0x7f82c8, 0xc0001e0000}, 0xc000160500)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000b40, {0x7f8720, 0xc000182cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:04:45 handlers.go:61: [::1]:36850
+2023/06/11 05:04:45 server.go:3230: http: panic serving [::1]:36850: runtime error: index out of range [12] with length 12
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc000196198})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0001e00e0}, 0xc000194500)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x335
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f82c8?, 0xc0001e00e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00019e4be?, {0x7f82c8, 0xc0001e00e0}, 0xc000194500)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000182db0?}, {0x7f82c8, 0xc0001e00e0}, 0xc000194500)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ca000, {0x7f8720, 0xc000182cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:04:45 handlers.go:61: [::1]:36860
+2023/06/11 05:04:45 server.go:3230: http: panic serving [::1]:36860: runtime error: index out of range [12] with length 12
+goroutine 40 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc00001a4b0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc000252000}, 0xc000160600)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x335
+net/http.HandlerFunc.ServeHTTP(0xc000060af0?, {0x7f82c8?, 0xc000252000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00001e9ce?, {0x7f82c8, 0xc000252000}, 0xc000160600)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00020ad20?}, {0x7f82c8, 0xc000252000}, 0xc000160600)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ca0a0, {0x7f8720, 0xc000182cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:04:46 handlers.go:61: [::1]:36862
+2023/06/11 05:04:46 server.go:3230: http: panic serving [::1]:36862: runtime error: index out of range [12] with length 12
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc00001a528})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0002520e0}, 0xc000160700)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x335
+net/http.HandlerFunc.ServeHTTP(0xc000060af0?, {0x7f82c8?, 0xc0002520e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00001e9fe?, {0x7f82c8, 0xc0002520e0}, 0xc000160700)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc00020aea0?}, {0x7f82c8, 0xc0002520e0}, 0xc000160700)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000be0, {0x7f8720, 0xc000182cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:04:51 handlers.go:61: [::1]:36888
+2023/06/11 05:04:51 server.go:3230: http: panic serving [::1]:36888: runtime error: index out of range [12] with length 12
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc000196210})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0001e01c0}, 0xc000194600)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x335
+net/http.HandlerFunc.ServeHTTP(0xc000060af0?, {0x7f82c8?, 0xc0001e01c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00019e4ee?, {0x7f82c8, 0xc0001e01c0}, 0xc000194600)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000183140?}, {0x7f82c8, 0xc0001e01c0}, 0xc000194600)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ca140, {0x7f8720, 0xc000182cf0})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:04:57 main.go:99: Server started @ :9394
+2023/06/11 05:04:59 handlers.go:61: [::1]:58000
+2023/06/11 05:04:59 handlers.go:68: 12 &{<p>In the world of politics, there are those who possess the natural charm and finesse required to run for office, and then there are individuals like Ron DeSantis. Bless his heart, the man seems to stumble more often than a toddler learning to walk. Ron DeSantis, the self-proclaimed candidate extraordinaire, has proven time and time again that running for office might not be his strong suit. Join us as we take a humorous dive into the mishaps and missteps of the one and only Ron DeSantis. The Running Man with Two Left Feet: When it comes to running a campaign, you would think that being able to physically run would be a basic requirement. Well, apparently, no one told Ron DeSantis.</p><p> In one memorable campaign event, he attempted a light jog across the stage, only to trip over his own shoelaces and go flying headfirst into a crowd of bewildered supporters. It's safe to say that his campaign momentum took a  tumble that day. The Debate Debacle: Ah, the art of debate—a chance for candidates to showcase their wit and intellectual prowess. Unfortunately for DeSantis, his attempts at witty comebacks fell flat like a pancake. During a particularly heated debate, when asked about his stance on a critical policy issue, DeSantis replied with a bewildered expression and a string of incoherent words that left both the audience and his opponent scratching their heads. It was like witnessing a squirrel trying to solve a Rubik's Cube.</p><p> The "Not-So-Social" Media Guru: In today's digital age, social media plays a pivotal role in any political campaign. However, it seems that DeSantis missed the memo. His social media presence is about as engaging as watching paint dry. From cringe-worthy selfies to poorly timed hashtags, his attempts to connect with voters online are reminiscent of your well-meaning but out-of-touch uncle trying to use Snapchat for the first time. Let's just say, if likes and retweets were votes, DeSantis would be in desperate need of a recount. The Gaffe Machine: Ron DeSantis is known for his uncanny ability to deliver gaffes on a silver platter. From mistaking facts to inventing new words, his campaign speeches often sound like a game of  political Mad Libs.</p><p> Perhaps his most memorable slip-up was when he declared that he would "build a wall around Florida to keep out the sun" because it was causing too much heat. Sorry, Ron, but SPF 50 sunscreen might be a more reasonable solution. The Photo Op Fiasco: Photo opportunities are crucial for any candidate to connect with voters and demonstrate their relatability. Unfortunately, DeSantis seems to have an innate talent for picking the worst possible scenarios.</p><p> Whether it's being caught on camera with food stuck in his teeth or sporting a mismatched outfit that screams "I dressed myself in the dark," DeSantis's photo ops are more cringe-worthy than a middle school yearbook. Conclusion: Ron DeSantis may have his sights set on political success, but his journey to the top seems to be paved with banana peels and awkward encounters. From his stumbling stage runs to his cringe-inducing gaffes, DeSantis has shown us that running for office might not be his calling. Perhaps he should consider a career as a comedian, because if there's one thing he's mastered, it's providing us with endless comedic material. Sorry, Ron, better luck next time. Or maybe, just stay off the campaign trail altogether. Ron "Anti-Christ" DeSantis is the devil himself Dr. Stimpson J. Cat Ph. D. Sat Jun 10 01:06:33 EDT 2023 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg   [::1]:46152 Ronald Dion DeSantis is an American politician 
+                serving since 2019 as the 46th governor of Florida. A member of 
+                the Republican Party, DeSantis represented Florida's 6th 
+                congressional district in the U.S. House of Representatives 
+                from 2013 to 2018 0 6sLwMlFOF0ylCnwG}
+2023/06/11 05:04:59 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:05:03 handlers.go:61: [::1]:58000
+2023/06/11 05:05:03 handlers.go:68: 12 &{<p>In the world of politics, there are those who possess the natural charm and finesse required to run for office, and then there are individuals like Ron DeSantis. Bless his heart, the man seems to stumble more often than a toddler learning to walk. Ron DeSantis, the self-proclaimed candidate extraordinaire, has proven time and time again that running for office might not be his strong suit. Join us as we take a humorous dive into the mishaps and missteps of the one and only Ron DeSantis. The Running Man with Two Left Feet: When it comes to running a campaign, you would think that being able to physically run would be a basic requirement. Well, apparently, no one told Ron DeSantis.</p><p> In one memorable campaign event, he attempted a light jog across the stage, only to trip over his own shoelaces and go flying headfirst into a crowd of bewildered supporters. It's safe to say that his campaign momentum took a  tumble that day. The Debate Debacle: Ah, the art of debate—a chance for candidates to showcase their wit and intellectual prowess. Unfortunately for DeSantis, his attempts at witty comebacks fell flat like a pancake. During a particularly heated debate, when asked about his stance on a critical policy issue, DeSantis replied with a bewildered expression and a string of incoherent words that left both the audience and his opponent scratching their heads. It was like witnessing a squirrel trying to solve a Rubik's Cube.</p><p> The "Not-So-Social" Media Guru: In today's digital age, social media plays a pivotal role in any political campaign. However, it seems that DeSantis missed the memo. His social media presence is about as engaging as watching paint dry. From cringe-worthy selfies to poorly timed hashtags, his attempts to connect with voters online are reminiscent of your well-meaning but out-of-touch uncle trying to use Snapchat for the first time. Let's just say, if likes and retweets were votes, DeSantis would be in desperate need of a recount. The Gaffe Machine: Ron DeSantis is known for his uncanny ability to deliver gaffes on a silver platter. From mistaking facts to inventing new words, his campaign speeches often sound like a game of  political Mad Libs.</p><p> Perhaps his most memorable slip-up was when he declared that he would "build a wall around Florida to keep out the sun" because it was causing too much heat. Sorry, Ron, but SPF 50 sunscreen might be a more reasonable solution. The Photo Op Fiasco: Photo opportunities are crucial for any candidate to connect with voters and demonstrate their relatability. Unfortunately, DeSantis seems to have an innate talent for picking the worst possible scenarios.</p><p> Whether it's being caught on camera with food stuck in his teeth or sporting a mismatched outfit that screams "I dressed myself in the dark," DeSantis's photo ops are more cringe-worthy than a middle school yearbook. Conclusion: Ron DeSantis may have his sights set on political success, but his journey to the top seems to be paved with banana peels and awkward encounters. From his stumbling stage runs to his cringe-inducing gaffes, DeSantis has shown us that running for office might not be his calling. Perhaps he should consider a career as a comedian, because if there's one thing he's mastered, it's providing us with endless comedic material. Sorry, Ron, better luck next time. Or maybe, just stay off the campaign trail altogether. Ron "Anti-Christ" DeSantis is the devil himself Dr. Stimpson J. Cat Ph. D. Sat Jun 10 01:06:33 EDT 2023 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg   [::1]:46152 Ronald Dion DeSantis is an American politician 
+                serving since 2019 as the 46th governor of Florida. A member of 
+                the Republican Party, DeSantis represented Florida's 6th 
+                congressional district in the U.S. House of Representatives 
+                from 2013 to 2018 0 6sLwMlFOF0ylCnwG}
+2023/06/11 05:05:03 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:05:42 main.go:99: Server started @ :9394
+2023/06/11 05:05:45 handlers.go:61: [::1]:46494
+2023/06/11 05:05:45 handlers.go:68: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:05:45 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:05:53 handlers.go:61: [::1]:46520
+2023/06/11 05:05:53 handlers.go:68: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:05:53 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:03 handlers.go:61: [::1]:53738
+2023/06/11 05:06:03 handlers.go:68: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:03 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:13 handlers.go:61: [::1]:41368
+2023/06/11 05:06:13 handlers.go:68: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:13 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:24 handlers.go:61: [::1]:50082
+2023/06/11 05:06:24 handlers.go:68: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:24 handlers.go:70: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:39 main.go:99: Server started @ :9394
+2023/06/11 05:06:44 handlers.go:60: ScG2PpYPsxY98qSE
+2023/06/11 05:06:44 handlers.go:62: [::1]:55364
+2023/06/11 05:06:44 handlers.go:69: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:44 handlers.go:71: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:47 handlers.go:60: t5quLAWfhQkLfBqu
+2023/06/11 05:06:47 handlers.go:62: [::1]:55364
+2023/06/11 05:06:47 handlers.go:69: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:47 handlers.go:71: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:58 handlers.go:60: l9GC2U57huouX95w
+2023/06/11 05:06:58 handlers.go:62: [::1]:51216
+2023/06/11 05:06:58 handlers.go:69: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:06:58 handlers.go:71: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:07:34 main.go:99: Server started @ :9394
+2023/06/11 05:07:39 handlers.go:60: map[6sLwMlFOF0ylCnwG:12 CKZEMkBp8ZFYXk8D:12 PxAg39zVfPAXuu8N:12 ScG2PpYPsxY98qSE:12 Y1Yxc1VG9AjsJgpx:12 dHfmI12haoHwQCbt:12 hIRt8d0wFTEDXJNV:12 iSPMcye8INso2MUK:12 l9GC2U57huouX95w:12 t5quLAWfhQkLfBqu:12 v0LJBqiYHtjVhLRL:12 zD7gDFBdQmYJYunx:12]
+2023/06/11 05:07:39 handlers.go:62: [::1]:55894
+2023/06/11 05:07:39 handlers.go:69: 12 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:07:39 handlers.go:71: https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:08:19 main.go:99: Server started @ :9394
+2023/06/11 05:08:26 handlers.go:60: map[6sLwMlFOF0ylCnwG:11 CKZEMkBp8ZFYXk8D:9 PxAg39zVfPAXuu8N:4 ScG2PpYPsxY98qSE:1 Y1Yxc1VG9AjsJgpx:8 dHfmI12haoHwQCbt:7 hIRt8d0wFTEDXJNV:2 iSPMcye8INso2MUK:10 l9GC2U57huouX95w:3 t5quLAWfhQkLfBqu:0 v0LJBqiYHtjVhLRL:6 zD7gDFBdQmYJYunx:5]
+2023/06/11 05:08:26 handlers.go:62: [::1]:51266
+2023/06/11 05:08:26 handlers.go:69: 0 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:08:26 server.go:3230: http: panic serving [::1]:51266: runtime error: index out of range [-1]
+goroutine 46 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc0000c00a8})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0000ca0e0}, 0xc0000a2300)
+	/home/john/Documents/programming/programming/test_server/handlers.go:70 +0x36e
+net/http.HandlerFunc.ServeHTTP(0xc00011baf0?, {0x7f82c8?, 0xc0000ca0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000de00e?, {0x7f82c8, 0xc0000ca0e0}, 0xc0000a2300)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002113b0?}, {0x7f82c8, 0xc0000ca0e0}, 0xc0000a2300)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000aa0, {0x7f8720, 0xc000182450})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:26 handlers.go:60: map[6sLwMlFOF0ylCnwG:11 CKZEMkBp8ZFYXk8D:9 PxAg39zVfPAXuu8N:4 ScG2PpYPsxY98qSE:1 Y1Yxc1VG9AjsJgpx:8 dHfmI12haoHwQCbt:7 hIRt8d0wFTEDXJNV:2 iSPMcye8INso2MUK:10 l9GC2U57huouX95w:3 t5quLAWfhQkLfBqu:0 v0LJBqiYHtjVhLRL:6 zD7gDFBdQmYJYunx:5]
+2023/06/11 05:08:26 handlers.go:62: [::1]:51274
+2023/06/11 05:08:26 handlers.go:69: 0 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:08:26 server.go:3230: http: panic serving [::1]:51274: runtime error: index out of range [-1]
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc0000c0120})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0000ca1c0}, 0xc0000a2200)
+	/home/john/Documents/programming/programming/test_server/handlers.go:70 +0x36e
+net/http.HandlerFunc.ServeHTTP(0xc0000aaaf0?, {0x7f82c8?, 0xc0000ca1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000de06e?, {0x7f82c8, 0xc0000ca1c0}, 0xc0000a2200)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000090300?}, {0x7f82c8, 0xc0000ca1c0}, 0xc0000a2200)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001be000, {0x7f8720, 0xc000182450})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:26 handlers.go:60: map[6sLwMlFOF0ylCnwG:11 CKZEMkBp8ZFYXk8D:9 PxAg39zVfPAXuu8N:4 ScG2PpYPsxY98qSE:1 Y1Yxc1VG9AjsJgpx:8 dHfmI12haoHwQCbt:7 hIRt8d0wFTEDXJNV:2 iSPMcye8INso2MUK:10 l9GC2U57huouX95w:3 t5quLAWfhQkLfBqu:0 v0LJBqiYHtjVhLRL:6 zD7gDFBdQmYJYunx:5]
+2023/06/11 05:08:26 handlers.go:62: [::1]:51278
+2023/06/11 05:08:26 handlers.go:69: 0 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:08:26 server.go:3230: http: panic serving [::1]:51278: runtime error: index out of range [-1]
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc0000c0198})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0000ca2a0}, 0xc0000a2400)
+	/home/john/Documents/programming/programming/test_server/handlers.go:70 +0x36e
+net/http.HandlerFunc.ServeHTTP(0xc0000aaaf0?, {0x7f82c8?, 0xc0000ca2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000de0ce?, {0x7f82c8, 0xc0000ca2a0}, 0xc0000a2400)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000909c0?}, {0x7f82c8, 0xc0000ca2a0}, 0xc0000a2400)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000d6140, {0x7f8720, 0xc000182450})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:27 handlers.go:60: map[6sLwMlFOF0ylCnwG:11 CKZEMkBp8ZFYXk8D:9 PxAg39zVfPAXuu8N:4 ScG2PpYPsxY98qSE:1 Y1Yxc1VG9AjsJgpx:8 dHfmI12haoHwQCbt:7 hIRt8d0wFTEDXJNV:2 iSPMcye8INso2MUK:10 l9GC2U57huouX95w:3 t5quLAWfhQkLfBqu:0 v0LJBqiYHtjVhLRL:6 zD7gDFBdQmYJYunx:5]
+2023/06/11 05:08:27 handlers.go:62: [::1]:51282
+2023/06/11 05:08:27 handlers.go:69: 0 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:08:27 server.go:3230: http: panic serving [::1]:51282: runtime error: index out of range [-1]
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc000190090})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0001ca000}, 0xc0000a2500)
+	/home/john/Documents/programming/programming/test_server/handlers.go:70 +0x36e
+net/http.HandlerFunc.ServeHTTP(0xc0000aaaf0?, {0x7f82c8?, 0xc0001ca000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001c000e?, {0x7f82c8, 0xc0001ca000}, 0xc0000a2500)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000090b70?}, {0x7f82c8, 0xc0001ca000}, 0xc0000a2500)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000d61e0, {0x7f8720, 0xc000182450})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:32 handlers.go:60: map[6sLwMlFOF0ylCnwG:11 CKZEMkBp8ZFYXk8D:9 PxAg39zVfPAXuu8N:4 ScG2PpYPsxY98qSE:1 Y1Yxc1VG9AjsJgpx:8 dHfmI12haoHwQCbt:7 hIRt8d0wFTEDXJNV:2 iSPMcye8INso2MUK:10 l9GC2U57huouX95w:3 t5quLAWfhQkLfBqu:0 v0LJBqiYHtjVhLRL:6 zD7gDFBdQmYJYunx:5]
+2023/06/11 05:08:32 handlers.go:62: [::1]:51312
+2023/06/11 05:08:32 handlers.go:69: 0 https://upload.wikimedia.org/wikipedia/commons/4/4e/DeSantis_Ian_update.jpg
+2023/06/11 05:08:32 server.go:3230: http: panic serving [::1]:51312: runtime error: index out of range [-1]
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73cd20, 0xc000190108})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f82c8, 0xc0001ca0e0}, 0xc0001ee100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:70 +0x36e
+net/http.HandlerFunc.ServeHTTP(0xc0000aaaf0?, {0x7f82c8?, 0xc0001ca0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001c006e?, {0x7f82c8, 0xc0001ca0e0}, 0xc0001ee100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000182780?}, {0x7f82c8, 0xc0001ca0e0}, 0xc0001ee100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001be1e0, {0x7f8720, 0xc000182450})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:52 main.go:99: Server started @ :9394
+2023/06/11 05:08:57 handlers.go:61: [::1]:45578
+2023/06/11 05:08:57 server.go:3230: http: panic serving [::1]:45578: runtime error: index out of range [-1]
+goroutine 46 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc00001a5a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002560e0}, 0xc00015ec00)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00011faf0?, {0x7f72a8?, 0xc0002560e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00001ee4e?, {0x7f72a8, 0xc0002560e0}, 0xc00015ec00)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002134d0?}, {0x7f72a8, 0xc0002560e0}, 0xc00015ec00)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000aa0, {0x7f7700, 0xc000096360})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:57 handlers.go:61: [::1]:45590
+2023/06/11 05:08:57 server.go:3230: http: panic serving [::1]:45590: runtime error: index out of range [-1]
+goroutine 48 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc00001a618})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002561c0}, 0xc00015eb00)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00005faf0?, {0x7f72a8?, 0xc0002561c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00001eeae?, {0x7f72a8, 0xc0002561c0}, 0xc00015eb00)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000213950?}, {0x7f72a8, 0xc0002561c0}, 0xc00015eb00)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000c80, {0x7f7700, 0xc000096360})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:57 handlers.go:61: [::1]:45598
+2023/06/11 05:08:57 server.go:3230: http: panic serving [::1]:45598: runtime error: index out of range [-1]
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc0000c8060})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0000d0000}, 0xc0000ba000)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f72a8?, 0xc0000d0000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0000bc00e?, {0x7f72a8, 0xc0000d0000}, 0xc0000ba000)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000963c0?}, {0x7f72a8, 0xc0000d0000}, 0xc0000ba000)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000d20, {0x7f7700, 0xc000096360})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:08:58 handlers.go:61: [::1]:45604
+2023/06/11 05:08:58 server.go:3230: http: panic serving [::1]:45604: runtime error: index out of range [-1]
+goroutine 67 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc00001a690})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0002562a0}, 0xc0000ba100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f72a8?, 0xc0002562a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc00001ef0e?, {0x7f72a8, 0xc0002562a0}, 0xc0000ba100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000096540?}, {0x7f72a8, 0xc0002562a0}, 0xc0000ba100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000ea000, {0x7f7700, 0xc000096360})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:09:03 handlers.go:61: [::1]:47856
+2023/06/11 05:09:03 server.go:3230: http: panic serving [::1]:47856: runtime error: index out of range [-1]
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xbf
+panic({0x73bd20, 0xc000190090})
+	/usr/local/go/src/runtime/panic.go:890 +0x262
+main.articleView({0x7f72a8, 0xc0001ba000}, 0xc00018e100)
+	/home/john/Documents/programming/programming/test_server/handlers.go:68 +0x245
+net/http.HandlerFunc.ServeHTTP(0xc00005baf0?, {0x7f72a8?, 0xc0001ba000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x2f
+net/http.(*ServeMux).ServeHTTP(0xc0001ae00e?, {0x7f72a8, 0xc0001ba000}, 0xc00018e100)
+	/usr/local/go/src/net/http/server.go:2487 +0x149
+net/http.serverHandler.ServeHTTP({0xc000182330?}, {0x7f72a8, 0xc0001ba000}, 0xc00018e100)
+	/usr/local/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001aa000, {0x7f7700, 0xc000096360})
+	/usr/local/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x4db
+2023/06/11 05:09:13 main.go:99: Server started @ :9394
+2023/06/11 05:09:15 handlers.go:61: [::1]:35894
+2023/06/11 05:09:18 handlers.go:61: [::1]:35894
+2023/06/11 05:11:41 main.go:99: Server started @ :9394
+2023/06/11 05:14:06 main.go:99: Server started @ :9394
+2023/06/11 05:14:09 handlers.go:61: [::1]:50242
+2023/06/11 05:14:55 handlers.go:61: [::1]:42022
+2023/06/11 05:15:00 handlers.go:61: [::1]:42022
+2023/06/11 05:15:32 handlers.go:61: [::1]:42614
+2023/06/11 05:17:09 handlers.go:61: [::1]:38720
+2023/06/11 05:21:21 main.go:99: Server started @ :9394
+2023/06/11 05:21:32 handlers.go:61: [::1]:39254
+2023/06/11 05:23:28 main.go:99: Server started @ :9394
+2023/06/11 05:23:30 main.go:99: Server started @ :9394
+2023/06/11 05:24:25 main.go:99: Server started @ :9394
+2023/06/11 05:24:26 handlers.go:61: [::1]:47538
+2023/06/11 05:24:30 handlers.go:61: [::1]:47538
+2023/06/11 05:24:59 main.go:99: Server started @ :9394
+2023/06/11 05:25:02 handlers.go:61: [::1]:33596
+2023/06/11 05:25:41 main.go:99: Server started @ :9394
+2023/06/11 13:51:24 handlers.go:61: [::1]:57900
+2023/06/11 13:55:15 handlers.go:61: 10.0.0.86:40502
+2023/06/11 13:55:22 handlers.go:61: 10.0.0.86:40514
+2023/06/11 18:42:16 handlers.go:61: 10.0.0.86:33700
+2023/06/11 18:42:43 handlers.go:61: 10.0.0.86:57712
+2023/06/11 21:44:24 handlers.go:61: [::1]:41590
+2023/06/11 22:00:43 handlers.go:61: [::1]:47666
+2023/06/11 22:02:06 main.go:99: Server started @ :9394
+2023/06/11 22:02:09 handlers.go:61: [::1]:59100
+2023/06/11 22:02:41 handlers.go:61: [::1]:56508
+2023/06/11 22:06:41 handlers.go:61: [::1]:57116
+2023/06/11 22:07:48 main.go:99: Server started @ :9394
+2023/06/11 22:07:53 main.go:99: Server started @ :9394
+2023/06/11 22:08:24 main.go:99: Server started @ :9394
+2023/06/11 22:08:26 handlers.go:61: [::1]:51382
+2023/06/11 22:08:31 main.go:99: Server started @ :9394
+2023/06/11 22:08:51 main.go:99: Server started @ :9394
+2023/06/11 22:08:53 handlers.go:61: [::1]:42678
+2023/06/11 22:11:06 main.go:99: Server started @ :9394
+2023/06/11 22:11:24 main.go:99: Server started @ :9394
+2023/06/11 22:11:28 handlers.go:61: [::1]:58656
+2023/06/11 22:11:58 main.go:99: Server started @ :9394
+2023/06/11 22:12:00 handlers.go:61: [::1]:46902
+2023/06/11 22:12:05 handlers.go:61: [::1]:46902
+2023/06/11 22:15:19 main.go:99: Server started @ :9394
+2023/06/11 22:15:23 handlers.go:61: [::1]:55782
+2023/06/11 22:22:00 handlers.go:61: [::1]:35806
+2023/06/11 22:23:42 main.go:99: Server started @ :9394
+2023/06/11 22:23:45 handlers.go:61: [::1]:43062
+2023/06/11 22:24:24 main.go:99: Server started @ :9394
+2023/06/11 22:24:28 handlers.go:61: [::1]:59258
+2023/06/11 22:24:45 main.go:99: Server started @ :9394
+2023/06/11 22:24:51 main.go:99: Server started @ :9394
+2023/06/11 22:24:54 handlers.go:61: [::1]:46108
+2023/06/11 22:25:04 main.go:99: Server started @ :9394
+2023/06/11 22:25:07 handlers.go:61: [::1]:59682
+2023/06/11 22:25:53 handlers.go:61: [::1]:43314
+2023/06/11 22:26:18 handlers.go:61: [::1]:55016
+2023/06/11 22:28:19 main.go:99: Server started @ :9394
+2023/06/11 22:28:22 handlers.go:61: [::1]:42606
+2023/06/11 22:29:12 main.go:99: Server started @ :9394
+2023/06/11 22:29:18 handlers.go:61: [::1]:60404
+2023/06/11 22:29:30 main.go:99: Server started @ :9394
+2023/06/11 22:29:34 main.go:99: Server started @ :9394
+2023/06/11 22:29:41 main.go:99: Server started @ :9394
+2023/06/11 22:30:11 main.go:99: Server started @ :9394
+2023/06/11 22:30:14 handlers.go:61: [::1]:44798
+2023/06/11 22:31:41 main.go:99: Server started @ :9394
+2023/06/11 22:31:50 main.go:99: Server started @ :9394
+2023/06/11 22:32:11 main.go:99: Server started @ :9394
+2023/06/11 22:32:15 handlers.go:61: [::1]:39778
+2023/06/11 22:32:41 main.go:99: Server started @ :9394
+2023/06/11 22:32:43 handlers.go:61: [::1]:56614
+2023/06/11 22:33:42 main.go:99: Server started @ :9394
+2023/06/11 22:33:44 handlers.go:61: [::1]:60706
+2023/06/11 22:34:04 handlers.go:61: [::1]:44770
+2023/06/11 22:40:44 main.go:99: Server started @ :9394
+2023/06/11 22:40:52 main.go:99: Server started @ :9394
+2023/06/11 22:41:08 handlers.go:61: [::1]:39096
+2023/06/11 22:41:18 handlers.go:61: [::1]:58346
+2023/06/11 22:41:46 main.go:99: Server started @ :9394
+2023/06/11 22:41:48 handlers.go:61: [::1]:48806
+2023/06/11 22:43:08 main.go:99: Server started @ :9394
+2023/06/11 22:43:18 main.go:99: Server started @ :9394
+2023/06/11 22:43:19 handlers.go:61: [::1]:55030
+2023/06/11 22:43:45 main.go:99: Server started @ :9394
+2023/06/11 22:43:48 handlers.go:61: [::1]:45930
+2023/06/11 22:43:55 handlers.go:61: [::1]:39008
+2023/06/11 22:46:40 handlers.go:61: 10.0.0.86:36052
+2023/06/11 22:47:31 main.go:99: Server started @ :9394
+2023/06/11 22:47:34 handlers.go:61: 10.0.0.86:50508
+2023/06/11 22:50:33 main.go:99: Server started @ :9394
+2023/06/11 22:50:56 main.go:99: Server started @ :9394
+2023/06/11 22:51:20 main.go:99: Server started @ :9394
+2023/06/11 22:52:25 main.go:99: Server started @ :9394
+2023/06/11 22:52:59 main.go:99: Server started @ :9394
+2023/06/11 22:53:16 main.go:99: Server started @ :9394
+2023/06/11 22:53:27 main.go:99: Server started @ :9394
+2023/06/11 22:53:56 main.go:99: Server started @ :9394
+2023/06/11 22:54:05 handlers.go:61: [::1]:54002
+2023/06/11 22:54:41 main.go:99: Server started @ :9394
+2023/06/11 22:55:16 main.go:99: Server started @ :9394
+2023/06/11 22:55:19 handlers.go:61: [::1]:40980
+2023/06/11 22:57:57 main.go:99: Server started @ :9394
+2023/06/11 22:58:06 main.go:99: Server started @ :9394
+2023/06/11 22:59:20 main.go:99: Server started @ :9394
+2023/06/11 22:59:29 main.go:99: Server started @ :9394
+2023/06/11 22:59:58 main.go:99: Server started @ :9394
+2023/06/11 23:00:29 main.go:99: Server started @ :9394
+2023/06/11 23:00:45 main.go:99: Server started @ :9394
+2023/06/11 23:01:05 main.go:99: Server started @ :9394
+2023/06/11 23:01:58 main.go:99: Server started @ :9394
+2023/06/11 23:02:57 main.go:99: Server started @ :9394
+2023/06/11 23:03:00 main.go:99: Server started @ :9394
+2023/06/11 23:03:12 main.go:99: Server started @ :9394
+2023/06/11 23:03:22 main.go:99: Server started @ :9394
+2023/06/11 23:03:34 main.go:99: Server started @ :9394
+2023/06/11 23:04:21 main.go:99: Server started @ :9394
+2023/06/11 23:04:43 main.go:99: Server started @ :9394
+2023/06/11 23:04:54 main.go:99: Server started @ :9394
+2023/06/11 23:05:57 main.go:99: Server started @ :9394
+2023/06/11 23:06:57 main.go:99: Server started @ :9394
+2023/06/11 23:07:03 main.go:99: Server started @ :9394
+2023/06/11 23:07:30 main.go:99: Server started @ :9394
+2023/06/11 23:08:40 main.go:99: Server started @ :9394
+2023/06/11 23:08:57 main.go:99: Server started @ :9394
+2023/06/11 23:09:48 main.go:99: Server started @ :9394
+2023/06/11 23:10:19 main.go:99: Server started @ :9394
+2023/06/11 23:11:31 main.go:99: Server started @ :9394
+2023/06/11 23:11:35 main.go:99: Server started @ :9394
+2023/06/11 23:12:15 main.go:99: Server started @ :9394
+2023/06/11 23:17:43 main.go:99: Server started @ :9394
+2023/06/11 23:18:05 main.go:99: Server started @ :9394
+2023/06/11 23:18:10 main.go:99: Server started @ :9394
+2023/06/11 23:18:34 main.go:99: Server started @ :9394
+2023/06/11 23:18:48 main.go:99: Server started @ :9394
+2023/06/11 23:19:09 main.go:99: Server started @ :9394
+2023/06/11 23:20:49 main.go:99: Server started @ :9394
+2023/06/11 23:21:05 main.go:99: Server started @ :9394
+2023/06/11 23:22:14 main.go:99: Server started @ :9394
+2023/06/11 23:23:20 main.go:99: Server started @ :9394
+2023/06/11 23:23:40 main.go:99: Server started @ :9394
+2023/06/11 23:24:10 main.go:99: Server started @ :9394
+2023/06/11 23:27:03 main.go:99: Server started @ :9394
+2023/06/11 23:28:46 main.go:99: Server started @ :9394
+2023/06/11 23:29:24 main.go:99: Server started @ :9394
+2023/06/11 23:32:12 main.go:99: Server started @ :9394
+2023/06/11 23:32:51 main.go:99: Server started @ :9394
+2023/06/11 23:33:28 main.go:99: Server started @ :9394
+2023/06/11 23:34:06 main.go:99: Server started @ :9394
+2023/06/11 23:37:26 main.go:99: Server started @ :9394
+2023/06/11 23:37:32 main.go:99: Server started @ :9394
+2023/06/11 23:37:57 main.go:99: Server started @ :9394
+2023/06/11 23:38:15 main.go:99: Server started @ :9394
+2023/06/11 23:39:13 main.go:99: Server started @ :9394
+2023/06/11 23:39:59 main.go:99: Server started @ :9394
+2023/06/11 23:40:06 main.go:99: Server started @ :9394
+2023/06/11 23:40:14 main.go:99: Server started @ :9394
+2023/06/11 23:40:24 main.go:99: Server started @ :9394
+2023/06/11 23:40:53 main.go:99: Server started @ :9394
+2023/06/11 23:42:00 main.go:99: Server started @ :9394
+2023/06/11 23:42:17 main.go:99: Server started @ :9394
+2023/06/11 23:42:20 main.go:99: Server started @ :9394
+2023/06/11 23:43:00 main.go:99: Server started @ :9394
+2023/06/11 23:43:31 handlers.go:61: 10.0.0.86:60336
+2023/06/11 23:44:40 main.go:99: Server started @ :9394
+2023/06/11 23:46:10 main.go:99: Server started @ :9394
+2023/06/11 23:49:25 main.go:99: Server started @ :9394
+2023/06/11 23:49:33 main.go:99: Server started @ :9394
+2023/06/11 23:50:09 main.go:99: Server started @ :9394
+2023/06/11 23:53:04 main.go:99: Server started @ :9394
+2023/06/11 23:53:45 main.go:99: Server started @ :9394
+2023/06/11 23:53:48 main.go:99: Server started @ :9394
+2023/06/11 23:54:11 main.go:99: Server started @ :9394
+2023/06/11 23:54:41 main.go:99: Server started @ :9394
+2023/06/11 23:55:29 main.go:99: Server started @ :9394
+2023/06/11 23:55:46 handlers.go:61: [::1]:56626
+2023/06/11 23:56:35 handlers.go:61: 10.0.0.86:46392
+2023/06/11 23:56:46 handlers.go:61: 10.0.0.86:46248
+2023/06/11 23:57:52 main.go:99: Server started @ :9394
+2023/06/11 23:58:16 main.go:99: Server started @ :9394
+2023/06/11 23:58:19 handlers.go:61: 10.0.0.86:52286
+2023/06/11 23:58:33 main.go:99: Server started @ :9394
+2023/06/11 23:58:37 handlers.go:61: 10.0.0.86:56336
+2023/06/11 23:58:40 handlers.go:61: 10.0.0.86:56336
+2023/06/11 23:59:19 main.go:99: Server started @ :9394
+2023/06/11 23:59:24 handlers.go:61: 10.0.0.86:35878
+2023/06/12 00:00:04 main.go:99: Server started @ :9394
+2023/06/12 00:00:06 handlers.go:61: [::1]:42158
+2023/06/12 00:01:15 main.go:99: Server started @ :9394
+2023/06/12 00:01:17 handlers.go:61: [::1]:54084
+2023/06/12 00:01:27 handlers.go:61: 10.0.0.86:60506
+2023/06/12 00:01:42 main.go:99: Server started @ :9394
+2023/06/12 00:01:45 handlers.go:61: 10.0.0.86:44848
+2023/06/12 00:02:35 handlers.go:61: [::1]:43084
+2023/06/12 00:03:32 handlers.go:61: 10.0.0.86:59852
+2023/06/12 00:03:38 handlers.go:61: 10.0.0.86:59856
+2023/06/12 00:04:57 main.go:99: Server started @ :9394
+2023/06/12 00:04:58 handlers.go:61: [::1]:45406
+2023/06/12 00:05:07 handlers.go:61: 10.0.0.86:38320
+2023/06/12 00:06:50 handlers.go:61: 10.0.0.86:56374
+2023/06/12 00:06:56 handlers.go:61: 10.0.0.86:56374
+2023/06/12 00:07:19 handlers.go:61: 10.0.0.86:48292
+2023/06/12 00:08:12 handlers.go:61: 10.0.0.86:46996
+2023/06/12 00:24:53 main.go:99: Server started @ :9394
+2023/06/12 00:24:55 handlers.go:61: [::1]:41146
+2023/06/12 13:09:52 handlers.go:61: [::1]:44196
+2023/06/12 13:10:52 main.go:99: Server started @ :9394
+2023/06/12 13:12:59 handlers.go:61: [::1]:46518
+2023/06/12 14:35:12 handlers.go:61: [::1]:44844
+2023/06/12 14:37:41 handlers.go:61: [::1]:39856
+2023/06/12 19:23:14 main.go:99: Server started @ :9394
+2023/06/12 19:24:21 main.go:99: Server started @ :9394
+2023/06/12 22:26:35 main.go:99: Server started @ :9395
+2023/06/12 22:26:56 handlers.go:61: [::1]:43274
+2023/06/12 22:27:32 handlers.go:61: [::1]:43686
+2023/06/12 22:27:50 handlers.go:61: [::1]:48640
+2023/06/12 22:27:54 handlers.go:61: [::1]:48640
+2023/06/12 22:28:35 main.go:92: listen tcp :9394: bind: address already in use
+2023/06/12 22:28:35 main.go:99: Server started @ :9394
+2023/06/12 22:28:35 main.go:101: exited
+2023/06/12 22:28:50 handlers.go:61: [::1]:41588
+2023/06/12 22:29:08 main.go:99: Server started @ :9394
+2023/06/12 22:39:29 main.go:99: Server started @ :9394
+2023/06/12 22:39:59 main.go:99: Server started @ :9394
+2023/06/12 22:40:08 main.go:99: Server started @ :9394
+2023/06/12 22:46:25 main.go:99: Server started @ :9394
+2023/06/12 22:46:35 main.go:99: Server started @ :9394
+2023/06/12 22:46:39 main.go:99: Server started @ :9394
+2023/06/12 22:46:50 handlers.go:61: [::1]:52136
+2023/06/12 22:48:00 main.go:99: Server started @ :9394
+2023/06/12 22:48:44 main.go:99: Server started @ :9394
+2023/06/12 22:49:22 main.go:99: Server started @ :9394
+2023/06/12 22:49:47 main.go:99: Server started @ :9394
+2023/06/12 22:49:51 main.go:99: Server started @ :9394
+2023/06/12 22:49:59 main.go:99: Server started @ :9394
+2023/06/12 22:50:37 main.go:99: Server started @ :9394
+2023/06/12 22:50:47 main.go:99: Server started @ :9394
+2023/06/12 22:51:14 main.go:99: Server started @ :9394
+2023/06/12 22:51:42 main.go:99: Server started @ :9394
+2023/06/12 22:51:59 main.go:99: Server started @ :9394
+2023/06/12 22:52:24 main.go:99: Server started @ :9394
+2023/06/12 22:52:53 main.go:99: Server started @ :9394
+2023/06/12 22:56:16 main.go:99: Server started @ :9394
+2023/06/12 22:56:52 main.go:99: Server started @ :9394
+2023/06/12 22:57:59 main.go:99: Server started @ :9394
+2023/06/12 22:58:29 main.go:99: Server started @ :9394
+2023/06/12 23:03:33 main.go:99: Server started @ :9394
+2023/06/12 23:07:34 main.go:99: Server started @ :9394
+2023/06/12 23:08:01 main.go:99: Server started @ :9394
+2023/06/12 23:09:30 main.go:99: Server started @ :9394
+2023/06/12 23:09:48 main.go:99: Server started @ :9394
+2023/06/12 23:09:53 main.go:99: Server started @ :9394
+2023/06/12 23:09:58 helpers.go:53: template: bigimg.tmpl:6:38: executing "bigimg" at <.ArticleTitle>: can't evaluate field ArticleTitle in type *main.viewData
+2023/06/12 23:10:02 helpers.go:53: template: bigimg.tmpl:6:38: executing "bigimg" at <.ArticleTitle>: can't evaluate field ArticleTitle in type *main.viewData
+2023/06/12 23:10:56 main.go:99: Server started @ :9394
+2023/06/12 23:17:08 main.go:99: Server started @ :9394
+2023/06/12 23:18:44 main.go:99: Server started @ :9394
+2023/06/12 23:19:39 main.go:99: Server started @ :9394
+2023/06/12 23:20:04 main.go:99: Server started @ :9394
+2023/06/12 23:21:05 main.go:99: Server started @ :9394
+2023/06/12 23:22:45 main.go:99: Server started @ :9394
+2023/06/12 23:24:17 main.go:99: Server started @ :9394
+2023/06/12 23:24:31 main.go:99: Server started @ :9394
+2023/06/12 23:24:51 main.go:99: Server started @ :9394
+2023/06/12 23:31:51 main.go:99: Server started @ :9394
+2023/06/12 23:34:18 handlers.go:61: [::1]:35410
+2023/06/12 23:37:04 main.go:100: Server started @ :9394
+2023/06/12 23:37:24 main.go:100: Server started @ :9394
+2023/06/12 23:38:09 main.go:100: Server started @ :9394
+2023/06/12 23:38:11 main.go:100: Server started @ :9394
+2023/06/12 23:38:31 main.go:100: Server started @ :9394
+2023/06/12 23:40:11 main.go:100: Server started @ :9394
+2023/06/12 23:40:29 main.go:100: Server started @ :9394
+2023/06/12 23:40:34 main.go:100: Server started @ :9394
+2023/06/12 23:40:36 handlers.go:51: [::1]:36222
+2023/06/12 23:42:19 main.go:100: Server started @ :9394
+2023/06/12 23:42:26 handlers.go:51: [::1]:34418
+2023/06/12 23:42:40 main.go:100: Server started @ :9394
+2023/06/12 23:42:41 handlers.go:51: [::1]:59686
+2023/06/12 23:42:51 main.go:100: Server started @ :9394
+2023/06/12 23:42:53 handlers.go:51: [::1]:51706
+2023/06/13 07:43:26 main.go:100: Server started @ :9394
+2023/06/13 07:44:52 main.go:100: Server started @ :9394
+2023/06/13 07:45:08 main.go:100: Server started @ :9394
+2023/06/13 07:45:21 main.go:100: Server started @ :9394
+2023/06/13 07:45:55 main.go:100: Server started @ :9394
+2023/06/13 07:46:54 main.go:100: Server started @ :9394
+2023/06/13 09:46:27 handlers.go:51: 10.0.0.86:32902
+2023/06/13 19:59:43 main.go:100: Server started @ :9394
+2023/06/13 20:01:42 handlers.go:51: 10.0.0.86:45298
+2023/06/13 20:01:52 handlers.go:51: 10.0.0.86:56716
+2023/06/13 20:04:36 main.go:100: Server started @ :9394
+2023/06/13 20:04:59 main.go:100: Server started @ :9394
+2023/06/13 20:05:08 main.go:100: Server started @ :9394
+2023/06/13 20:05:26 main.go:100: Server started @ :9394
+2023/06/13 20:05:47 main.go:100: Server started @ :9394
+2023/06/13 20:06:10 main.go:100: Server started @ :9394
+2023/06/13 20:06:24 main.go:100: Server started @ :9394
+2023/06/13 20:06:36 main.go:100: Server started @ :9394
+2023/06/13 20:06:46 main.go:100: Server started @ :9394
+2023/06/13 20:10:34 main.go:100: Server started @ :9394
+2023/06/13 20:10:38 main.go:100: Server started @ :9394
+2023/06/13 20:12:24 handlers.go:51: 10.0.0.86:35900
+2023/06/13 20:15:01 handlers.go:51: 10.0.0.86:56238
+2023/06/13 20:20:08 handlers.go:51: 10.0.0.86:60892
+2023/06/13 20:20:17 handlers.go:51: 10.0.0.86:39778
+2023/06/13 20:21:05 handlers.go:51: 10.0.0.86:57990
