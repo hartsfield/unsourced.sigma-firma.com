@@ -1,5 +1,5 @@
 #!/bin/bash
-export servicePort=9394
+export servicePort=9395
 export logFilePath=./log_file.txt
 trap -- '' SIGTERM
 git pull
