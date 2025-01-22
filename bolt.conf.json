@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "UNSOURCED",
+    "command": "",
+    "domain_name": "unsourced.sigma-firma.com",
+    "version": "0.01",
+    "env": {},
+    "port": "10528",
+    "alertsOn": true,
+    "tls_enabled": true,
+    "repo": "https://github.com/hartsfield/unsourced.sigma-firma.com"
+  },
+  "gcloud": {
+    "command": "gcloud",
+    "zone": "us-central1-a",
+    "project": "mysterygift",
+    "user": "john",
+    "livedir": "/home/john/live/",
+    "instance": "main",
+    "proxy_home": "/home/john/bp/",
+    "proxyConf": ""
+  }
+}
