@@ -50,7 +50,7 @@ var (
 	unpub_json string
 	//go:embed published.json
 	pub_json    string
-	servicePort = ":10528"
+	servicePort = ":10118"
 	logFilePath = "log.txt"
 
 	templates          = template.Must(template.New("main").ParseGlob("internal/pages/*"))

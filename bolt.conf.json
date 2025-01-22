@@ -5,7 +5,7 @@
     "domain_name": "unsourced.sigma-firma.com",
     "version": "0.01",
     "env": {},
-    "port": "10528",
+    "port": "10118",
     "alertsOn": true,
     "tls_enabled": true,
     "repo": "https://github.com/hartsfield/unsourced.sigma-firma.com"
