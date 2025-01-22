@@ -5,11 +5,8 @@ import (
 	_ "embed"
 	"fmt"
 	"log"
-	"math/rand"
 	"net/http"
-	"os"
 	"text/template"
-	"time"
 )
 
 type viewData struct {
@@ -53,8 +50,8 @@ var (
 	unpub_json string
 	//go:embed published.json
 	pub_json    string
-	servicePort = ":" + os.Getenv("servicePort")
-	logFilePath = os.Getenv("logFilePath")
+	servicePort = ":10528"
+	logFilePath = "log.txt"
 
 	templates          = template.Must(template.New("main").ParseGlob("internal/pages/*"))
 	mux                = http.NewServeMux()
@@ -71,7 +68,6 @@ func main() {
 	defer logFile.Close()
 
 	template.Must(templates.ParseGlob("internal/components/*/*"))
-	rand.Seed(time.Now().UTC().UnixNano())
 	mux.HandleFunc("/", getTodaysBest)
 	mux.HandleFunc("/review", getUnpublished)
 	mux.HandleFunc("/shiny", getRecentlyPublished)

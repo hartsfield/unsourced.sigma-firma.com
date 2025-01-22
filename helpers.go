@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
 	"log"
 	"math/rand"
 	"net/http"
@@ -103,7 +102,7 @@ func writeDB() {
 		log.Println(err)
 	}
 
-	err = ioutil.WriteFile("unpublished.json", b, 0644)
+	err = os.WriteFile("unpublished.json", b, 0644)
 	if err != nil {
 		log.Println(err)
 	}
